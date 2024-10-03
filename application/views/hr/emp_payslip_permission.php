@@ -889,7 +889,7 @@ $total_c = round($total_c, 2);
 <label for="aadhar">Cheque Date<i class="text-danger">*</i></label> 
  </div>
     <div class="col-sm-6"> 
-<input type="date" id="cheque_date" name="cheque_date" value="<?php  echo $time_sheet_data[0]['cheque_date']; ?>"  class="form-control"  requried/><br />
+<input type="text" id="datepicker_cheque" name="cheque_date" value="<?php  echo $time_sheet_data[0]['cheque_date']; ?>"  class="form-control"  requried/><br />
         </div></div>
 </div>
 <div id="pc" >
@@ -1462,10 +1462,12 @@ function convertToTime(hr,min) {
 }
 $(function() {
     $("#datepicker").datepicker({
-        dateFormat: 'mm-dd-yy'
+        dateFormat: 'mm-dd-yy',
+	maxDate: 0
     });
     $("#datepicker_cheque").datepicker({
-        dateFormat: 'mm-dd-yy'
+        dateFormat: 'mm-dd-yy',
+	maxDate: 0
     });
 });
 </script>
