@@ -10,9 +10,11 @@ $active_record = TRUE;//ci version 2.x
 $db['default'] = array(
     'dsn'   => '',
     'hostname' => 'localhost',
-    'username' => 'root',
+
+        'username' => 'root',
     'password' => '',
-    'database' => 'amoriotech_wagers_uat',
+    'database' => 'wager',
+
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,
