@@ -353,20 +353,6 @@ $fs=strtoupper($infoemployee[0]['first_name']);
 
  
 
-<?php // if ($infotime[0]['total_hours'] >  $data_work_hour ) { ?>
-<!-- <tr>
-<td>Over Time</td>
-<td ><?php echo $extra_hour; ?></td>
-<td ><?php echo $extra_rate; ?></td>
-<td id="above_over_this_period" ><?php echo $extra_thisrate; ?></td>
-<td ><?php echo $extra_eth; ?></td>
-<td id="final_over_ytd" ><?php echo $extra_ytdeth; ?></td>
- </tr> -->
- 
- <?php // }?>
-
- 
-
 
 
 
@@ -530,13 +516,13 @@ $total_time = sprintf('%d:%02d', $hours, $minutes);
                                  <th>YTD(<?php  echo $currency; ?>)</th>
                               </tr>
 
-                           <!-- <?php print_r($s);   ?> -->
+                       
 
                          <?php if ($infoemployee[0]['payroll_type'] == 'Hourly'  ||  $infoemployee[0]['payroll_type'] == 'Salaried-weekly'  ||  $infoemployee[0]['payroll_type'] == 'Salaried-BiWeekly'  || $infoemployee[0]['payroll_type'] == 'Salaried-Monthly'  ||  $infoemployee[0]['payroll_type'] == 'SalesCommission' ) { ?>
                             
-                           
+                             
                         
-                           <?php if($s){ ?>
+                           <?php if($s){?>
                               <tr>
                                  <td style="text-align:left;"> Social Security</td>
                                  <td>S O</td>
