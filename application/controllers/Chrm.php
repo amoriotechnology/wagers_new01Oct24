@@ -1,4 +1,3 @@
-
 <?php
  error_reporting(0);
 if (!defined('BASEPATH'))
@@ -2416,10 +2415,10 @@ $this->db->query($sql);
    if(!empty($data['monthly'][0]['employee'])){
     $monthy_employee_details= $data['monthly'][0]['details'];
     $addamt1 = explode('$', $monthy_employee_details);
-     $monthly_employee= $data['monthly'][0]['employee'];
+    $monthly_employee= $data['monthly'][0]['employee'];
     $month=($monthly_employee/100)*$getvalue;
     $month= round($month);
-    $monthly_tax= $addamt1[0] + $month;
+    $monthly_tax= $addamt1[1] + $month;
    }
   
   $data1 = array(
@@ -2593,9 +2592,9 @@ $data8= array(
       echo "<br/>";echo "<br/>";echo "<br/>";
     // print_r($living_state_tax);
    
-       echo $this->db->last_query();
+       // echo $this->db->last_query();
      //  echo $this->db->_error_message();
-error_log("data in model AFTER INSERT: ");
+// error_log("data in model AFTER INSERT: ");
     //   echo "<br/>";echo "<br/>";echo "<br/>";
   
    }
@@ -2667,9 +2666,9 @@ $data8= array(
       echo "<br/>";echo "<br/>";echo "<br/>";
     // print_r($living_state_tax);
    
-       echo $this->db->last_query();
+       // echo $this->db->last_query();
      //  echo $this->db->_error_message();
-      error_log("data in model AFTER INSERT: ");
+      // error_log("data in model AFTER INSERT: ");
     //   echo "<br/>";echo "<br/>";echo "<br/>";
   }
    }
@@ -2712,7 +2711,7 @@ foreach ($local_tax as $k => $v) {
         ->where('tax', str_replace("'", "", explode('-', $k)[1]))
          ->where('tax_type', 'local_tax')
         ->get()->row();
-         echo $this->db->last_query();
+         // echo $this->db->last_query();
          echo "<br/>";
    $split=explode('-',$k); echo "<br/>";echo "<br/>";echo "SPLIT :";
  //  print_r($split);echo "<br/>";echo "<br/>";
@@ -2745,7 +2744,7 @@ $data1 = array(
       );
    //echo "<br/>";   print_r($data1);echo "<br/>";
     $this->db->insert('tax_history',$data1);
-   echo $this->db->last_query(); 
+   // echo $this->db->last_query(); 
    }
   }
   }
@@ -2820,7 +2819,7 @@ $data1 = array(
       );
    //echo "<br/>";   print_r($data1);echo "<br/>";
     $this->db->insert('tax_history_employer',$data1);
-   echo $this->db->last_query();
+   // echo $this->db->last_query();
    }
   }
   }
@@ -6697,14 +6696,18 @@ public function getemployee_data(){
 
 
 
-public function add_state_taxes_detail($tax=null) {
-  $CI = & get_instance();
+public function add_state_taxes_detail($tax=null) 
+{
+    
+    $CI = & get_instance();
     $CI->load->model('Web_settings');
     $setting_detail = $CI->Web_settings->retrieve_setting_editdata();
-$data['setting_detail'] = $setting_detail;
+    $data['setting_detail'] = $setting_detail;
+    // $tax = urldecode($_GET['tax']);
     $url = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
     $parts = parse_url($url);
-     parse_str($parts['query'], $query);
+   // print_r($parts); die;
+    parse_str($parts['query'], $query);
     
      $data['taxinfo'] = $this->db->select("*")
      ->from('state_localtax')
@@ -6716,7 +6719,7 @@ $data['setting_detail'] = $setting_detail;
  
     $data['weekly_taxinfo'] = $this->db->select("*")
     ->from('weekly_tax_info')
-    ->where('tax','Weekly New Jersey-Income tax - NJ')
+   ->where('tax','Weekly '.$query['tax'])
       ->where('create_by',$this->session->userdata('user_id') )
     ->get()
     ->result_array();
@@ -6724,10 +6727,8 @@ $data['setting_detail'] = $setting_detail;
 
     $data['biweekly_taxinfo'] = $this->db->select("*")
     ->from('biweekly_tax_info')
-    ->where('tax','BIWeekly New Jersey-Income tax - NJ')
- 
-      
-      ->where('create_by',$this->session->userdata('user_id') )
+    ->where('tax','BIWeekly '.$query['tax'])
+    ->where('create_by',$this->session->userdata('user_id') )
     ->get()
     ->result_array();
  
@@ -6735,10 +6736,12 @@ $data['setting_detail'] = $setting_detail;
 
     $data['monthly_taxinfo'] = $this->db->select("*")
     ->from('monthly_tax_info')
-    ->where('tax','Monthly New Jersey-Income tax - NJ')
+    ->where('tax','Monthly '.$query['tax'])
       ->where('create_by',$this->session->userdata('user_id') )
     ->get()
     ->result_array();
+
+    // echo $this->db->last_query(); die();
 
    
 
