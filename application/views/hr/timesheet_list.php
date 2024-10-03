@@ -500,11 +500,12 @@ padding:0px;
 
 <!-- <th class="4 value"  data-col="4"  data-resizable-column-id="4"   >Duration</th>
 <th class="5 value"  data-col="5"  data-resizable-column-id="5"   >Daily Break</th> -->
-
 <th class="6 value"  data-col="6"  data-resizable-column-id="6" >Payroll Type</th>
-<th class="7 value"  data-col="7"  data-resizable-column-id="7">month</th>
+<th class="7 value"  data-col="7"  data-resizable-column-id="7">Date Range</th>
+<th class="10 value"  data-col="10"  data-resizable-column-id="10">Total Hours/Days</th>
 <th class="8 value"  data-col="8"  data-resizable-column-id="8">Payslip Status</th>
 <th class="9 value"  data-col="9"  data-resizable-column-id="9">Action</th>
+
 
 </tr>
 </thead>
@@ -552,6 +553,7 @@ if ($timesheet_list) {
 
 
 <td class="7 value"  data-col="7"><?php echo html_escape($timsht['month']);?></td>
+<td class="10 value" data-col="10"></td>
 
 <td class="8 value"  data-col="8"><?php if($timsht['uneditable']==1) { echo "<span class='green'>Generated</span>";  }else{ echo "<span class='red'>Pending</span>";   }  ?></td>
 
@@ -623,15 +625,17 @@ if ($timesheet_list) {
              <!-- <br><input type="checkbox"  data-control-column="2" class="2" value="2"/>&nbsp;Employee Name<br> -->
             <!-- <br><input type="checkbox"  data-control-column="3" class="3 " value="3  "/>&nbsp;Job title <br> -->
             <!-- <br><input type="checkbox"  data-control-column="4" class="4" value="4"/>&nbsp;Duration<br> -->
-            <br><input type="checkbox"  data-control-column="7"    class="7" value="7"/>&nbsp;Month<br>                 
+            <br><input type="checkbox"  data-control-column="7"    class="7" value="7"/>&nbsp;Date Range<br>                 
 
            
          </div>
       </div>
-      <div class="col-sm-4" >
+      <div class="col-sm-5" >
          <br>
          <div class="form-group row"  >
             <br><input type="checkbox"  data-control-column="6"    class="6" value="6"/>&nbsp;Payroll Type<br>
+            <br><input type="checkbox"  data-control-column="10"    class="10" value="10"/>&nbsp;Total Hours/Days<br>
+
                         <!-- <br><input type="checkbox"  data-control-column="6" class="6" value="6"/>&nbsp;Payment Terms<br> -->
 
          </div>
