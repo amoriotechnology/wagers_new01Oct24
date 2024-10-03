@@ -174,11 +174,13 @@ public function sc_get_data_pay($d1 = null, $empid, $timesheetid)
             $this->db->join('timesheet_info', 'timesheet_info.timesheet_id = tax_history.time_sheet_id');
             $this->db->where('timesheet_info.create_by', $this->session->userdata('user_id'));
             $this->db->where('tax_history.tax', 'Income tax');
+             $this->db->where('tax_history.tax_type', 'state_tax');
+           
                 $this->db->where('tax_history.employee_id', $empid);
             $this->db->where("STR_TO_DATE(SUBSTRING_INDEX(timesheet_info.month, ' - ', -1), '%m/%d/%Y') <= STR_TO_DATE('$d1', '%m/%d/%Y')", NULL, FALSE);
-            $this->db->group_by('timesheet_info.create_by');
+            $this->db->group_by('tax_history.s_tax,tax_history.m_tax,tax_history.u_tax,tax_history.f_tax,tax_history.tax');
             $query = $this->db->get();
-           // echo $this->db->last_query(); die();
+     
             if ($query->num_rows() > 0) {
                 return $query->result_array();
             }
@@ -1978,7 +1980,28 @@ public function get_data_pay($d1 = null, $empid, $timesheetid) {
     }
     return false;
 }
-
+public function get_taxname_biweekly(){
+    $user_id = $this->session->userdata('user_id');
+    $this->db->select('tax');
+    $this->db->from('biweekly_tax_info');
+    $this->db->where('create_by', $user_id);  
+    $query = $this->db->get();
+     if ($query->num_rows() > 0) {
+        return $query->result_array();
+     }
+      return true;
+}
+public function get_taxname_monthly(){
+    $user_id = $this->session->userdata('user_id');
+    $this->db->select('tax');
+    $this->db->from('monthly_tax_info');
+    $this->db->where('create_by', $user_id);  
+    $query = $this->db->get();
+     if ($query->num_rows() > 0) {
+        return $query->result_array();
+     }
+      return true;
+}
 private function format_time($time) {
     // Ensure the time is a valid string before processing
     if (is_string($time)) {
