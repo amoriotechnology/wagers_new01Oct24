@@ -1947,6 +1947,8 @@ public function get_data_pay($d1 = null, $empid, $timesheetid) {
         SUM(timesheet_info.above_extra_ytd) as above_ytdeth,
         SUM(timesheet_info.extra_ytd) as ytdeth,
         SUM(info_payslip.sc) as sc, 
+        SUM(timesheet_info.total_hours) as total_days,
+         SUM(timesheet_info.above_this_hours) as above_eth_days, 
         SEC_TO_TIME(SUM(TIME_TO_SEC(timesheet_info.total_hours))) as total_sec,
         SEC_TO_TIME(SUM(TIME_TO_SEC(timesheet_info.extra_this_hour))) as total_eth,
         SEC_TO_TIME(SUM(TIME_TO_SEC(timesheet_info.above_this_hours))) as total_above_eth
@@ -1966,6 +1968,8 @@ public function get_data_pay($d1 = null, $empid, $timesheetid) {
         $result = $query->result_array();
         // Format the total seconds to "HH:MM"
         foreach ($result as &$row) {
+            $row['above_eth_days'] = $row['above_eth_days'];
+            $row['t_days'] = $row['total_days'];
             $row['t_hours'] = $this->format_time($row['total_sec']);
             $row['eth'] = $this->format_time($row['total_eth']);
             $row['above_eth'] = $this->format_time($row['total_above_eth']);
