@@ -2561,7 +2561,7 @@ $data2 = array(
       );
    $this->db->insert('info_payslip',$data2);
     }else{
-	    $data_timesheet = [
+        $data_timesheet = [
     'unique_id' => $this->input->post('unique_id'),
     'payroll_type' => "Sales Partner",
     'uneditable' => 1,
@@ -5629,32 +5629,64 @@ $data2 = array(
 
 
 
-    public function pay_slip_list() {
-    $data['title'] = display('pay_slip_list');
-    $this->load->model('Hrm_model');
-    $CI = & get_instance();
-    $CI->load->model('Web_settings');
-    $setting_detail = $CI->Web_settings->retrieve_setting_editdata();
-    $datainfo = $this->Hrm_model->get_data_payslip();
+    public function pay_slip_list() 
+    {
+      $data['title'] = display('pay_slip_list');
+      $this->load->model('Hrm_model');
+      $CI = & get_instance();
+      $CI->load->model('Web_settings');
+      $setting_detail = $CI->Web_settings->retrieve_setting_editdata();
+      $data['employee_data'] =$this->Hrm_model->employee_data_get();
 
-    $infodatainfo = $this->Hrm_model->get_data_payslip();
-
-    $sc_no_datainfo = $this->Hrm_model->sc_no_get_data_payslip();
-
-    $sc_info_choice_yes = $this->Hrm_model->sc_info_choice_yes();
-    // print_r($sc_info_choice_yes); die();
-
-
-     $datainfo = array_merge($infodatainfo, $sc_no_datainfo, $sc_info_choice_yes);
-    
-    
-    $data=array(
-        'dataforpayslip' => $datainfo,
-        'setting_detail' => $setting_detail,
-    );
-    $content = $this->parser->parse('hr/pay_slip_list', $data, true);
-    $this->template->full_admin_html_view($content);
+      $content = $this->parser->parse('hr/pay_slip_list', $data, true);
+      $this->template->full_admin_html_view($content);
     }
+    
+    public function payslipIndexData() 
+{
+      $limit          = $this->input->post("length");
+      $start          = $this->input->post("start");
+      $search         = $this->input->post("search")["value"];
+      $orderField     = $this->input->post("columns")[$this->input->post("order")[1]["column"]]["data"];
+      $orderDirection = $this->input->post("order")[0]["dir"];
+      $date           = $this->input->post("payslip_date_search");
+      $emp_name       = $this->input->post('employee_name');
+      $items         = $this->Hrm_model->getPaginatedpayslip($limit,$start,$orderField,$orderDirection,$search,$date,$emp_name);
+      $infodatainfo   = $this->Hrm_model->getPaginatedpayslip($limit,$start,$orderField,$orderDirection,$search,$date,$emp_name);
+      $sc_no_datainfo = $this->Hrm_model->getPaginatedscpayslip($limit,$start,$orderField,$orderDirection,$search,$date,$emp_name);
+      $sc_info_choice_yes = $this->Hrm_model->getPaginatedscchoiceyes($limit,$start,$orderField,$orderDirection,$search,$date,$emp_name);
+      array_merge($items, $infodatainfom, $sc_no_datainfo, $sc_info_choice_yes);
+
+      $totalItems     = $this->Hrm_model->getTotalpayslip($search,$date,$emp_name);
+      $data           = [];
+      $i              = $start + 1;
+      $edit           = "";
+      $delete         = "";
+      foreach ($items as $item) {
+          $row = [
+              "table_id"      => $i,
+              "first_name"    => $item["first_name"] .' '. $item["middle_name"].' '. $item["last_name"],
+              "job_title"  => $item["job_title"],
+              "month"         => $item["month"],
+              "total_hours" => (!empty($item['total_hours']) ? $item['total_hours'] : 0),
+              "tot_amt"   => (!empty($item['extra_this_hour']) ? ($item['above_extra_sum'] + $item['extra_thisrate']) : $item['above_extra_sum']),
+              "overtime"   => !empty($item['extra_this_hour']) ? $item['extra_this_hour'] : '0',
+              "sales_comm" => $item['sales_c_amount'],
+              "action" => "<a href='".base_url('Chrm/time_list/'.$item['timesheet_id'].'/'.$item['templ_name'])."' class='btnclr btn btn-success btn-sm'> <i class='fa fa-window-restore'></i> </a>",
+          ];
+          $data[] = $row;
+          $i++;
+      }
+
+      $response = [
+          "draw"            => $this->input->post("draw"),
+          "recordsTotal"    => $totalItems,
+          "recordsFiltered" => $totalItems,
+          "data"            => $data,
+      ];
+      echo json_encode($response);
+  }
+
 
 
 
