@@ -448,7 +448,7 @@ public function stateIncomeReportData()
             "amount"        => $stateTax['amount'] ?? 0,
             "weekly"        => $livingStateTax['amount'] ?? 0,
             "employer_tax"   => number_format($employer_state_tax_amount ?? 0, 3),
-            "employer_weekly" => ($url === 'Income tax') ? "0.00" : number_format($employer_living_state_tax_amount ?? 0, 3)
+            "employer_weekly" => ($url === 'Income tax') ? "0.000" : number_format($employer_living_state_tax_amount ?? 0, 3)
 
         ];
         if (trim($row['first_name']) !== '' && trim($row['employee_tax']) !== '') {
