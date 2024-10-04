@@ -371,6 +371,7 @@ public function stateIncomeReportData()
     $employee_name  = $this->input->post('employee_name');
     $taxname = $this->input->post('taxname');
     $orderDirection = strtolower($orderDirection);
+    $url = 'Income tax';
     if (!in_array($orderDirection, ['asc', 'desc'])) {
         $orderDirection = 'asc';
     }
@@ -415,8 +416,7 @@ public function stateIncomeReportData()
        
         $stateTax = $report['state_tax'][0] ?? [];
         $livingStateTax = $report['living_state_tax'][0] ?? [];
-        // $employerStateTax = $report['employer_state_tax'][0] ?? [];
-        // $employerLivingStateTax = $report['employer_living_state_tax'][0] ?? [];
+      
         if ($report['weekly'] > 0) {
             $final_amount = $report['weekly'];
         } elseif ($report['biweekly'] > 0) {
@@ -449,7 +449,7 @@ public function stateIncomeReportData()
             "amount"        => $stateTax['amount'] ?? 0,
             "weekly"        => $livingStateTax['amount'] ?? 0,
             "employer_tax"   => number_format($employer_state_tax_amount ?? 0, 3),
-        "employer_weekly" =>  number_format($employer_living_state_tax_amount ?? 0, 3)
+            "employer_weekly" => ($url === 'Income tax') ? "0.00" : number_format($employer_living_state_tax_amount ?? 0, 3)
 
         ];
         if (trim($row['first_name']) !== '' && trim($row['employee_tax']) !== '') {
