@@ -1,5 +1,3 @@
-
-
 <?php
 
 if (!defined('BASEPATH'))
@@ -29,10 +27,10 @@ public function state_tax_list()
  
    if ($query->num_rows() > 0) {
     return $query->result_array();
-}
+   }
 }
 
- // Old State Tax Report - Madhu
+// Old State Tax Report - Madhu
 public function statetaxreport($employee_name=null,$url,$date=null)
 {
     $user_id = $this->session->userdata('user_id');
@@ -4780,7 +4778,6 @@ public function getTotalpayslip($search, $date, $emp_name = 'All')
     }
     return $query->num_rows();
 }
-
 
 
 

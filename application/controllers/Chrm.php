@@ -2371,18 +2371,18 @@ $data1 = array(
         WHERE t1.weekly IS NULL AND t1.monthly IS NULL AND t1.biweekly IS NULL;";
 $this->db->query($sql);
 
-  } else if ($data['employee_data'][0]['payroll_type'] == 'Salaried-Monthly') {
+  } 
+
+  else if ($data['employee_data'][0]['payroll_type'] == 'Salaried-Monthly') {
 
     $data['tax_name'] = $this->Hrm_model->get_taxname_monthly();
 
-    $employeeTax = $data['employee_data'][0]['employee_tax'];
+    $emp_tax  = $data['employee_data'][0]['employee_tax'];
 
-    $query = "SELECT `single` FROM `monthly_tax_info` WHERE `tax` = '" . $data['tax_name'][0]['tax'] . "'
-    AND CAST(SUBSTRING_INDEX(`single`, '-', 1) AS UNSIGNED) <= $final
-    AND CAST(SUBSTRING_INDEX(SUBSTRING_INDEX(`single`, '-', -1), '-', 1) AS UNSIGNED) >= $final";
-
-    // echo $this->db->last_query(); die;
-  
+    $query = "SELECT `$emp_tax` FROM `monthly_tax_info` WHERE `tax` = '" . $data['tax_name'][0]['tax'] . "'
+    AND CAST(SUBSTRING_INDEX(`$emp_tax`, '-', 1) AS UNSIGNED) <= $final
+    AND CAST(SUBSTRING_INDEX(SUBSTRING_INDEX(`$emp_tax`, '-', -1), '-', 1) AS UNSIGNED) >= $final";
+    
 
   $monthly_tax = $this->db->query($query)->result_array();
   $monthly_range  = $monthly_tax[0]['single'];
@@ -2427,7 +2427,8 @@ $sql = "DELETE t1 FROM tax_history t1 INNER JOIN tax_history t2 ON t1.id > t2.id
         AND t1.amount = t2.amount AND t1.created_by = t2.created_by AND t1.time_sheet_id = t2.time_sheet_id WHERE t1.weekly IS NULL
         AND t1.monthly IS NULL AND t1.biweekly IS NULL; ";
 $this->db->query($sql);
-  } else {
+  } 
+else {
  
 
     if ($data['employee_data'][0]['payroll_type'] == 'Hourly' || $data['employee_data'][0]['payroll_type'] == 'Salaried-weekly' || $data['employee_data'][0]['payroll_type'] == 'Salaried-BiWeekly' || $data['employee_data'][0]['payroll_type'] == 'Salaried-Monthly' ) {
@@ -6334,9 +6335,6 @@ $data2 = array(
 
 
 
-
-
-
     public function pay_slip_list() 
     {
       $data['title'] = display('pay_slip_list');
@@ -6351,7 +6349,7 @@ $data2 = array(
     }
 
 
-    public function payslipIndexData() 
+public function payslipIndexData() 
 {
       $limit          = $this->input->post("length");
       $start          = $this->input->post("start");
