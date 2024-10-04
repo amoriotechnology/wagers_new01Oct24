@@ -1,5 +1,3 @@
-
-
 <?php
 
 if (!defined('BASEPATH'))
@@ -29,10 +27,10 @@ public function state_tax_list()
  
    if ($query->num_rows() > 0) {
     return $query->result_array();
-}
+   }
 }
 
- // Old State Tax Report - Madhu
+// Old State Tax Report - Madhu
 public function statetaxreport($employee_name=null,$url,$date=null)
 {
     $user_id = $this->session->userdata('user_id');
@@ -1845,7 +1843,7 @@ public function state_tax(){
         $this->db->from('federal_tax');
         $this->db->where($employee_status,$federal_range);
        $query = $this->db->get();
- 
+
       if ($query->num_rows() > 0) {
             
            return $query->result_array();
@@ -1991,6 +1989,12 @@ public function get_taxname_biweekly(){
      }
       return true;
 }
+public function deleteDuplicateTaxRecords() {
+        $sql = "DELETE t1 FROM tax_history t1 INNER JOIN tax_history t2 ON t1.id > t2.id AND t1.tax = t2.tax
+                AND t1.code = t2.code AND t1.amount = t2.amount AND t1.created_by = t2.created_by AND t1.time_sheet_id = t2.time_sheet_id
+                WHERE t1.weekly IS NULL AND t1.monthly IS NULL AND t1.biweekly IS NULL;";    
+        return $this->db->query($sql);
+    }
 public function get_taxname_monthly(){
     $user_id = $this->session->userdata('user_id');
     $this->db->select('tax');
@@ -2067,64 +2071,71 @@ public function local_state_tax($employee_status,$final,$local_tax_range){
 
  
 public function sc_info_count($templ_name, $payperiod) {
-
-
- 
     $date = explode('-', $payperiod);
     $formattedStartDate = date('Y-m-d', strtotime($date[0]));
     $formattedendDate = date('Y-m-d', strtotime($date[1]));
 
-    $this->db->select('b.sc,a.commercial_invoice_number ,a.gtotal');
+    $this->db->select('b.sc, a.commercial_invoice_number, a.gtotal');
     $this->db->from('invoice a');
     $this->db->join('employee_history b', 'a.user_emp_id = b.id');
     $this->db->join('payment c', 'a.payment_id = c.payment_id');
- $this->db->where('a.paid_amount = a.gtotal');
-        $this->db->where('a.user_emp_id', $templ_name);
+    $this->db->where('a.paid_amount = a.gtotal');
+    $this->db->where('a.user_emp_id', $templ_name);
     $this->db->where('a.sales_by', $this->session->userdata('user_id'));
     $this->db->where('c.payment_date >=', $formattedStartDate);
     $this->db->where('c.payment_date <=', $formattedendDate);
-    $this->db->group_start(); // Start a group of OR conditions
-$this->db->where('c.balance', '0.00');
-$this->db->or_where('c.balance', '0.0');
-$this->db->or_where('c.balance', '0');
-$this->db->group_end(); // End the group of OR conditions
+    $this->db->group_start();
+    $this->db->where('c.balance', '0.00');
+    $this->db->or_where('c.balance', '0.0');
+    $this->db->or_where('c.balance', '0');
+    $this->db->group_end();
 
-  
-$query = $this->db->get();
- 
-$result['sc'] = $query->result_array();
-// Process the result to remove duplicates
+    $query = $this->db->get();
+    $result['sc'] = $query->result_array();
 
-// Create a temporary array to store unique commercial_invoice_number
-$tempArray = [];
-$filteredResult = [];
-
-foreach ($result['sc'] as $row) {
-    $invoiceNumber = $row['commercial_invoice_number'];
-    if (!in_array($invoiceNumber, $tempArray)) {
-        $tempArray[] = $invoiceNumber;
-        $filteredResult[] = $row;
+    // Remove duplicates
+    $tempArray = [];
+    $filteredResult = [];
+    foreach ($result['sc'] as $row) {
+        $invoiceNumber = $row['commercial_invoice_number'];
+        if (!in_array($invoiceNumber, $tempArray)) {
+            $tempArray[] = $invoiceNumber;
+            $filteredResult[] = $row;
+        }
     }
+
+    // Update result
+    $result['sc'] = $filteredResult;
+    $count = count($filteredResult);
+    $result['count'] = $count;
+
+    // Calculate total 'gtotal'
+    $total_gtotal = 0;
+    foreach ($filteredResult as $row) {
+        $total_gtotal += $row['gtotal'];
+    }
+    $result['total_gtotal'] = $total_gtotal;
+
+    // Calculate scValue and scValueAmount
+    $scValue = isset($filteredResult[0]['sc']) ? $filteredResult[0]['sc'] : 0;
+    $sc_totalAmount1 = $total_gtotal;
+
+    if ($sc_totalAmount1 != 0) {
+        $scValuePercentage = ($scValue / $sc_totalAmount1) * 100;
+        $scValueAmount = ($scValuePercentage / 100) * $sc_totalAmount1;
+    } else {
+        $scValueAmount = 0;
+    }
+
+    // Return all results including the calculated values
+    return [
+        'sc' => $scValue / 100, // Normalize if needed
+        'total_gtotal' => $total_gtotal,
+        'count' => $count,
+        'scValueAmount' => $scValueAmount,
+    ];
 }
 
-$result['sc'] = $filteredResult;
-$count = count($filteredResult); // Get the count of rows
-$result['count'] = $count;
-
-// Calculate the total sum of 'gtotal'
-$total_gtotal = 0;
-foreach ($filteredResult as $row) {
-    $total_gtotal += $row['gtotal'];
-}
-$result['total_gtotal'] = $total_gtotal;
-
-// Multiply 'sc' in the result by the count
-foreach ($filteredResult as &$row) {
-    $row['sc'] *= $count;
-}
-
-return $result;
-}
 
 
 
@@ -4577,6 +4588,210 @@ public function get_employee_sal_overtime($id, $tax, $timeid) {
     }
     return true;
 }
+
+public function getPaginatedpayslip($limit, $offset, $orderField, $orderDirection, $search, $date = null, $emp_name = 'All')
+{
+    $this->db->select('a.*,b.*,c.*');
+    if ($date) {
+        $dates = explode(' to ', $date);
+        $start_date = $dates[0];
+        $end_date = $dates[1];  
+        $this->db->where('a.cheque_date >=', $start_date);
+        $this->db->where('a.cheque_date <=', $end_date);
+    }
+
+    if ($emp_name !== 'All') {
+        $trimmed_emp_name = trim($emp_name);
+        $this->db->group_start();
+        $this->db->like("TRIM(CONCAT_WS(' ', b.first_name, b.middle_name, b.last_name))", $trimmed_emp_name);
+        $this->db->or_like("TRIM(CONCAT_WS(' ', b.first_name, b.last_name))", $trimmed_emp_name);
+        $this->db->group_end();
+    }
+
+    $this->db->from('timesheet_info a');
+    $this->db->join('employee_history b' , 'a.templ_name = b.id');
+    $this->db->join('tax_history c' , 'c.time_sheet_id  = a.timesheet_id');
+    $this->db->group_by('c.time_sheet_id'); // Specify the column to compare for removing duplicates
+
+    if (!empty($search)) {
+        $this->db->group_start();
+        $this->db->like("a.timesheet_id", $search);
+        $this->db->or_like("b.first_name", $search);
+        $this->db->or_like("b.last_name", $search);
+        $this->db->or_like("b.middle_name", $search);
+        $this->db->or_like("b.employee_tax", $search);
+        $this->db->group_end();
+    }
+        
+    $this->db->where('a.uneditable', '1');
+    $this->db->where("a.payroll_type != 'Sales Partner'");
+    $this->db->where('a.create_by',$this->session->userdata('user_id'));
+
+    if($_SESSION['u_type'] ==3){
+        $this->db->where('a.unique_id',$this->session->userdata('unique_id'));
+    }
+    
+    $this->db->limit($limit, $offset);
+    $this->db->order_by($orderField, $orderDirection);
+
+    $query = $this->db->get();
+
+    if ($query === false) {
+        return false;
+    }
+    return $query->result_array();
+}
+
+
+public function getPaginatedscchoiceyes($limit, $offset, $orderField, $orderDirection, $search, $date = null, $emp_name = 'All')
+{
+    $this->db->select('a.*,b.*,c.*');
+
+    if ($date) {
+        $dates = explode(' to ', $date);
+        $start_date = $dates[0];
+        $end_date = $dates[1];  
+        $this->db->where('a.cheque_date >=', $start_date);
+        $this->db->where('a.cheque_date <=', $end_date);
+    }
+
+    if ($emp_name !== 'All') {
+        $trimmed_emp_name = trim($emp_name);
+        $this->db->group_start();
+        $this->db->like("TRIM(CONCAT_WS(' ', b.first_name, b.middle_name, b.last_name))", $trimmed_emp_name);
+        $this->db->or_like("TRIM(CONCAT_WS(' ', b.first_name, b.last_name))", $trimmed_emp_name);
+        $this->db->group_end();
+    }
+
+    $this->db->from('timesheet_info a');
+    $this->db->join('tax_history b', 'a.timesheet_id = b.time_sheet_id');
+    $this->db->join('employee_history c', 'a.templ_name = c.id'); // Changed alias to 'c'
+    
+    if (!empty($search)) {
+        $this->db->group_start();
+        $this->db->like("a.timesheet_id", $search);
+        $this->db->or_like("c.first_name", $search);
+        $this->db->or_like("c.last_name", $search);
+        $this->db->or_like("c.middle_name", $search);
+        $this->db->or_like("c.employee_tax", $search);
+        $this->db->group_end();
+    }
+
+    $this->db->where('c.choice', 'Yes');
+    $this->db->where('a.payroll_type', 'Sales Partner');
+    $this->db->limit($limit, $offset);
+    $this->db->order_by($orderField, $orderDirection);
+    $query = $this->db->get();
+
+    if ($query === false) {
+        return [];
+    }
+    return $query->result_array();
+}
+
+
+public function getPaginatedscpayslip($limit, $offset, $orderField, $orderDirection, $search, $date = null, $emp_name = 'All')
+{
+    $this->db->select('a.*,b.*');
+
+    if ($date) {
+        $dates = explode(' to ', $date);
+        $start_date = $dates[0];
+        $end_date = $dates[1];  
+        $this->db->where('a.cheque_date >=', $start_date);
+        $this->db->where('a.cheque_date <=', $end_date);
+    }
+
+    if ($emp_name !== 'All') {
+        $trimmed_emp_name = trim($emp_name);
+        $this->db->group_start();
+        $this->db->like("TRIM(CONCAT_WS(' ', b.first_name, b.middle_name, b.last_name))", $trimmed_emp_name);
+        $this->db->or_like("TRIM(CONCAT_WS(' ', b.first_name, b.last_name))", $trimmed_emp_name);
+        $this->db->group_end();
+    }
+
+    $this->db->from('timesheet_info a');
+    $this->db->join('employee_history b' , 'a.templ_name = b.id');
+    $this->db->group_by('a.timesheet_id'); // Specify the column to compare for removing duplicates
+
+    if (!empty($search)) {
+        $this->db->group_start();
+        $this->db->like("a.timesheet_id", $search);
+        $this->db->or_like("b.first_name", $search);
+        $this->db->or_like("b.last_name", $search);
+        $this->db->or_like("b.middle_name", $search);
+        $this->db->or_like("b.employee_tax", $search);
+        $this->db->group_end();
+    }
+
+    $this->db->where('a.uneditable', '1');
+    $this->db->where('a.payroll_type', 'Sales Partner');
+    $this->db->where('b.choice', 'No');
+
+    $this->db->limit($limit, $offset);
+    $this->db->order_by($orderField, $orderDirection);
+    $query = $this->db->get();
+    
+    if ($query === false) {
+        return [];
+    }
+    return $query->result_array();
+}
+
+
+public function getTotalpayslip($search, $date, $emp_name = 'All')
+{
+    $this->db->select('a.*,b.*,c.*');
+    if ($date) {
+        $dates = explode(' to ', $date);
+        $start_date = $dates[0];
+        $end_date = $dates[1];  
+        $this->db->where('a.cheque_date >=', $start_date);
+        $this->db->where('a.cheque_date <=', $end_date);
+    }
+
+    if ($emp_name !== 'All') {
+        $trimmed_emp_name = trim($emp_name);
+        $this->db->group_start();
+        $this->db->like("TRIM(CONCAT_WS(' ', b.first_name, b.middle_name, b.last_name))", $trimmed_emp_name);
+        $this->db->or_like("TRIM(CONCAT_WS(' ', b.first_name, b.last_name))", $trimmed_emp_name);
+        $this->db->group_end();
+    }
+
+    $this->db->from('timesheet_info a');
+    $this->db->join('employee_history b' , 'a.templ_name = b.id');
+    $this->db->join('tax_history c' , 'c.time_sheet_id  = a.timesheet_id');
+    $this->db->group_by('c.time_sheet_id'); 
+
+    if (!empty($search)) {
+        $this->db->group_start();
+        $this->db->like("a.timesheet_id", $search);
+        $this->db->or_like("b.first_name", $search);
+        $this->db->or_like("b.last_name", $search);
+        $this->db->or_like("b.middle_name", $search);
+        $this->db->or_like("b.employee_tax", $search);
+        $this->db->group_end();
+    }
+        
+    $this->db->where('a.uneditable', '1');
+    $this->db->where("a.payroll_type != 'Sales Partner'");
+    $this->db->where('a.create_by',$this->session->userdata('user_id'));
+
+    if($_SESSION['u_type'] ==3){
+        $this->db->where('a.unique_id',$this->session->userdata('unique_id'));
+    }
+
+    $this->db->limit($limit, $offset);
+    $this->db->order_by($orderField, $orderDirection);
+
+    $query = $this->db->get();
+
+    if ($query === false) {
+        return false;
+    }
+    return $query->num_rows();
+}
+
 
 
 }

@@ -282,63 +282,63 @@ if ($this->db->field_exists($txd, 'quotation_taxinfo')) {
 
     // ================ Income tax entry   ======
    
-    public function create_tax_setup(){
-      $tname = $this->input->post('tax_name',TRUE);
-      echo $tname;
-       $tax_name= str_replace("_"," ",$tname);
-       echo $tax_name;
-        $year = date("Y");
-        $start_amount = $this->input->post('employer',TRUE);
-        $end_amount = $this->input->post('employee',TRUE);
-        $details = $this->input->post('details',TRUE);
-        $single_from = $this->input->post('single_from',TRUE);
-        $single_to = $this->input->post('single_to',TRUE);
-        $tax_filling_from = $this->input->post('tax_filling_from',TRUE);
-        $tax_filling_to = $this->input->post('tax_filling_to',TRUE);
-        $married_from = $this->input->post('married_from',TRUE);
-        $married_to = $this->input->post('married_to',TRUE);
-        $head_household_from = $this->input->post('head_household_from',TRUE);
-        $head_household_to = $this->input->post('head_household_to',TRUE);
-               $this->db->where('tax',$tax_name);
-                //   echo $this->db->last_query(); die();
-         $this->db->delete('state_localtax');
-         echo $this->db->last_query();
-       for ($i = 0, $n = count($details); $i < $n; $i++) {
-            $samount = $start_amount[$i];
-            $eamount = $end_amount[$i];
-            $arate = $details[$i];
-            $sfrom = $single_from[$i];
-            $sto = $single_to[$i];
-            $tffrom = $tax_filling_from[$i];
-            $tfto = $tax_filling_to[$i];
-            $mfrom = $married_from[$i];
-            $mto = $married_to[$i];
-            $hhfrom = $head_household_from[$i];
-            $hhto = $head_household_to[$i];
-            $data1 = array(
-                'year'  => $year,
-                'employer'    => $samount,
-                'employee'      => $eamount,
-                'details'            => $arate,
-                'single'   =>  $sfrom."-".$sto,
-                'tax_filling' => $tffrom."-".$tfto,
-                'married' => $mfrom."-".$mto,
-                'head_household' => $hhfrom."-".$hhto,
-                'tax'  =>$tax_name,
-              'create_by' => $this->session->userdata('user_id')
-        );
-        //   print_r($data1);
-         $this->db->insert('state_localtax', $data1);
-          echo $this->db->last_query();
-            }
-            $this->session->set_flashdata('message', display('save_successfully'));
-            redirect("Chrm/payroll_setting");
-            if (empty($data1)) {
-                redirect("Chrm/payroll_setting");
-            }else{
-                redirect("Chrm/payroll_setting");
-            }
-    }
+    // public function create_tax_setup(){
+    //   $tname = $this->input->post('tax_name',TRUE);
+    //   echo $tname;
+    //    $tax_name= str_replace("_"," ",$tname);
+    //    echo $tax_name;
+    //     $year = date("Y");
+    //     $start_amount = $this->input->post('employer',TRUE);
+    //     $end_amount = $this->input->post('employee',TRUE);
+    //     $details = $this->input->post('details',TRUE);
+    //     $single_from = $this->input->post('single_from',TRUE);
+    //     $single_to = $this->input->post('single_to',TRUE);
+    //     $tax_filling_from = $this->input->post('tax_filling_from',TRUE);
+    //     $tax_filling_to = $this->input->post('tax_filling_to',TRUE);
+    //     $married_from = $this->input->post('married_from',TRUE);
+    //     $married_to = $this->input->post('married_to',TRUE);
+    //     $head_household_from = $this->input->post('head_household_from',TRUE);
+    //     $head_household_to = $this->input->post('head_household_to',TRUE);
+    //            $this->db->where('tax',$tax_name);
+    //             //   echo $this->db->last_query(); die();
+    //      $this->db->delete('state_localtax');
+    //      echo $this->db->last_query();
+    //    for ($i = 0, $n = count($details); $i < $n; $i++) {
+    //         $samount = $start_amount[$i];
+    //         $eamount = $end_amount[$i];
+    //         $arate = $details[$i];
+    //         $sfrom = $single_from[$i];
+    //         $sto = $single_to[$i];
+    //         $tffrom = $tax_filling_from[$i];
+    //         $tfto = $tax_filling_to[$i];
+    //         $mfrom = $married_from[$i];
+    //         $mto = $married_to[$i];
+    //         $hhfrom = $head_household_from[$i];
+    //         $hhto = $head_household_to[$i];
+    //         $data1 = array(
+    //             'year'  => $year,
+    //             'employer'    => $samount,
+    //             'employee'      => $eamount,
+    //             'details'            => $arate,
+    //             'single'   =>  $sfrom."-".$sto,
+    //             'tax_filling' => $tffrom."-".$tfto,
+    //             'married' => $mfrom."-".$mto,
+    //             'head_household' => $hhfrom."-".$hhto,
+    //             'tax'  =>$tax_name,
+    //           'create_by' => $this->session->userdata('user_id')
+    //     );
+    //     //   print_r($data1);
+    //      $this->db->insert('state_localtax', $data1);
+    //       echo $this->db->last_query();
+    //         }
+    //         $this->session->set_flashdata('message', display('save_successfully'));
+    //         redirect("Chrm/payroll_setting");
+    //         if (empty($data1)) {
+    //             redirect("Chrm/payroll_setting");
+    //         }else{
+    //             redirect("Chrm/payroll_setting");
+    //         }
+    // }
     
     
     public function delete_row()
@@ -906,5 +906,84 @@ $year = date("Y");
         $data['taxdata']     = $this->Accounts->customer_taxdata($start,$end,$invoice_id);
         $content = $this->parser->parse('accounts/invoice_wise_tax_report',$data,true);
         $this->template->full_admin_html_view($content);      
+    }
+
+    // Insert Tax
+    public function create_tax_setup()
+    {
+        $type=$_GET['type'];
+        $tname = $this->input->post('tax_name',TRUE);
+        $tax_name= str_replace("_"," ",$tname);
+        $year = date("Y");
+        $start_amount = $this->input->post('employer',TRUE);
+        $end_amount = $this->input->post('employee',TRUE);
+        $details = $this->input->post('details',TRUE);
+        $single_from = $this->input->post('single_from',TRUE);
+        $single_to = $this->input->post('single_to',TRUE);
+        $tax_filling_from = $this->input->post('tax_filling_from',TRUE);
+        $tax_filling_to = $this->input->post('tax_filling_to',TRUE);
+        $married_from = $this->input->post('married_from',TRUE);
+        $married_to = $this->input->post('married_to',TRUE);
+        $head_household_from = $this->input->post('head_household_from',TRUE);
+        $head_household_to = $this->input->post('head_household_to',TRUE);
+
+        $this->db->where('tax',$tax_name);
+        if($type == 'hourly'){
+        $this->db->delete('state_localtax');
+        }else if($type == 'weekly'){
+            $this->db->delete('weekly_tax_info');
+       
+        }else if($type == 'biweekly'){
+            $this->db->delete('biweekly_tax_info');
+        
+        }else if($type == 'monthly'){
+            $this->db->delete('monthly_tax_info');
+
+        }
+             
+       for ($i = 0, $n = count($details); $i < $n; $i++) 
+       {
+            $samount = $start_amount[$i];
+            $eamount = $end_amount[$i];
+            $arate = $details[$i];
+            $sfrom = $single_from[$i];
+            $sto = $single_to[$i];
+            $tffrom = $tax_filling_from[$i];
+            $tfto = $tax_filling_to[$i];
+            $mfrom = $married_from[$i];
+            $mto = $married_to[$i];
+            $hhfrom = $head_household_from[$i];
+            $hhto = $head_household_to[$i];
+            $data1 = array(
+                'year'  => $year,
+                'employer'    => $samount,
+                'employee'      => $eamount,
+                'details'            => $arate,
+                'single'   =>  $sfrom."-".$sto,
+                'tax_filling' => $tffrom."-".$tfto,
+                'married' => $mfrom."-".$mto,
+                'head_household' => $hhfrom."-".$hhto,
+                'tax'  =>$tax_name,
+                'create_by' => $this->session->userdata('user_id')
+        );
+        if($type == 'hourly'){
+         $this->db->insert('state_localtax', $data1);
+        }else if($type == 'weekly'){
+         $this->db->insert('weekly_tax_info', $data1);
+        }else if($type == 'biweekly'){
+         $this->db->insert('biweekly_tax_info', $data1);
+         // echo $this->db->last_query(); die();
+        }else if($type == 'monthly'){
+         $this->db->insert('monthly_tax_info', $data1);
+        }
+        }
+
+        $this->session->set_flashdata('message', display('save_successfully'));
+        redirect("Chrm/payroll_setting");
+        if (empty($data1)) {
+            redirect("Chrm/payroll_setting");
+        }else{
+            redirect("Chrm/payroll_setting");
+        }
     }
 }
