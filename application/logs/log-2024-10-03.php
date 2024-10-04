@@ -8970,3 +8970,2840 @@ INFO - 2024-10-03 08:32:13 --> File loaded: D:\wamp64\www\Wagers_03Oct24\applica
 INFO - 2024-10-03 08:32:13 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
 INFO - 2024-10-03 08:32:13 --> Final output sent to browser
 DEBUG - 2024-10-03 08:32:13 --> Total execution time: 1.1120
+ERROR - 2024-10-03 12:34:28 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 12:34:28 --> Config Class Initialized
+INFO - 2024-10-03 12:34:28 --> Hooks Class Initialized
+DEBUG - 2024-10-03 12:34:28 --> UTF-8 Support Enabled
+INFO - 2024-10-03 12:34:28 --> Utf8 Class Initialized
+INFO - 2024-10-03 12:34:28 --> URI Class Initialized
+INFO - 2024-10-03 12:34:28 --> Router Class Initialized
+INFO - 2024-10-03 12:34:28 --> Output Class Initialized
+INFO - 2024-10-03 12:34:28 --> Security Class Initialized
+DEBUG - 2024-10-03 12:34:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 12:34:28 --> CSRF cookie sent
+INFO - 2024-10-03 12:34:28 --> Input Class Initialized
+INFO - 2024-10-03 12:34:28 --> Language Class Initialized
+INFO - 2024-10-03 12:34:28 --> Loader Class Initialized
+INFO - 2024-10-03 12:34:28 --> Helper loaded: url_helper
+INFO - 2024-10-03 12:34:28 --> Helper loaded: file_helper
+INFO - 2024-10-03 12:34:28 --> Helper loaded: form_helper
+INFO - 2024-10-03 12:34:28 --> Helper loaded: lang_helper
+INFO - 2024-10-03 12:34:28 --> Database Driver Class Initialized
+INFO - 2024-10-03 12:34:28 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 12:34:28 --> Parser Class Initialized
+INFO - 2024-10-03 12:34:28 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 12:34:28 --> Pagination Class Initialized
+INFO - 2024-10-03 12:34:28 --> Form Validation Class Initialized
+INFO - 2024-10-03 12:34:28 --> Controller Class Initialized
+DEBUG - 2024-10-03 12:34:28 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 12:34:28 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 12:34:28 --> Model "Web_settings" initialized
+INFO - 2024-10-03 12:34:28 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 12:34:28 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\hr/add_state_tax_detail.php
+DEBUG - 2024-10-03 12:34:28 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 12:34:28 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 12:34:28 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 12:34:28 --> Model "Products" initialized
+INFO - 2024-10-03 08:34:28 --> Model "reports" initialized
+INFO - 2024-10-03 08:34:28 --> Model "Users" initialized
+INFO - 2024-10-03 08:34:28 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 08:34:28 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 08:34:28 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 08:34:28 --> Final output sent to browser
+DEBUG - 2024-10-03 08:34:28 --> Total execution time: 0.8938
+ERROR - 2024-10-03 12:34:28 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+ERROR - 2024-10-03 12:34:28 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 12:34:28 --> Config Class Initialized
+INFO - 2024-10-03 12:34:28 --> Hooks Class Initialized
+INFO - 2024-10-03 12:34:28 --> Config Class Initialized
+INFO - 2024-10-03 12:34:28 --> Hooks Class Initialized
+DEBUG - 2024-10-03 12:34:28 --> UTF-8 Support Enabled
+INFO - 2024-10-03 12:34:28 --> Utf8 Class Initialized
+DEBUG - 2024-10-03 12:34:28 --> UTF-8 Support Enabled
+INFO - 2024-10-03 12:34:28 --> Utf8 Class Initialized
+INFO - 2024-10-03 12:34:28 --> URI Class Initialized
+INFO - 2024-10-03 12:34:28 --> URI Class Initialized
+INFO - 2024-10-03 12:34:29 --> Router Class Initialized
+INFO - 2024-10-03 12:34:29 --> Router Class Initialized
+INFO - 2024-10-03 12:34:29 --> Output Class Initialized
+INFO - 2024-10-03 12:34:29 --> Output Class Initialized
+INFO - 2024-10-03 12:34:29 --> Security Class Initialized
+INFO - 2024-10-03 12:34:29 --> Security Class Initialized
+DEBUG - 2024-10-03 12:34:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 12:34:29 --> CSRF cookie sent
+DEBUG - 2024-10-03 12:34:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 12:34:29 --> Input Class Initialized
+INFO - 2024-10-03 12:34:29 --> CSRF cookie sent
+INFO - 2024-10-03 12:34:29 --> Language Class Initialized
+INFO - 2024-10-03 12:34:29 --> Input Class Initialized
+INFO - 2024-10-03 12:34:29 --> Language Class Initialized
+ERROR - 2024-10-03 12:34:29 --> 404 Page Not Found: Assets/css
+ERROR - 2024-10-03 12:34:29 --> 404 Page Not Found: Assets/js
+ERROR - 2024-10-03 12:34:29 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 12:34:29 --> Config Class Initialized
+INFO - 2024-10-03 12:34:29 --> Hooks Class Initialized
+DEBUG - 2024-10-03 12:34:29 --> UTF-8 Support Enabled
+INFO - 2024-10-03 12:34:29 --> Utf8 Class Initialized
+INFO - 2024-10-03 12:34:29 --> URI Class Initialized
+DEBUG - 2024-10-03 12:34:29 --> No URI present. Default controller set.
+INFO - 2024-10-03 12:34:29 --> Router Class Initialized
+INFO - 2024-10-03 12:34:29 --> Output Class Initialized
+INFO - 2024-10-03 12:34:29 --> Security Class Initialized
+DEBUG - 2024-10-03 12:34:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 12:34:29 --> CSRF cookie sent
+INFO - 2024-10-03 12:34:29 --> Input Class Initialized
+INFO - 2024-10-03 12:34:29 --> Language Class Initialized
+INFO - 2024-10-03 12:34:29 --> Loader Class Initialized
+INFO - 2024-10-03 12:34:29 --> Helper loaded: url_helper
+INFO - 2024-10-03 12:34:29 --> Helper loaded: file_helper
+INFO - 2024-10-03 12:34:29 --> Helper loaded: form_helper
+INFO - 2024-10-03 12:34:29 --> Helper loaded: lang_helper
+INFO - 2024-10-03 12:34:29 --> Database Driver Class Initialized
+ERROR - 2024-10-03 12:34:29 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 12:34:29 --> Config Class Initialized
+INFO - 2024-10-03 12:34:29 --> Hooks Class Initialized
+DEBUG - 2024-10-03 12:34:29 --> UTF-8 Support Enabled
+INFO - 2024-10-03 12:34:29 --> Utf8 Class Initialized
+INFO - 2024-10-03 12:34:29 --> URI Class Initialized
+INFO - 2024-10-03 12:34:29 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 12:34:29 --> Router Class Initialized
+INFO - 2024-10-03 12:34:29 --> Parser Class Initialized
+INFO - 2024-10-03 12:34:29 --> Output Class Initialized
+ERROR - 2024-10-03 12:34:29 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 12:34:29 --> Security Class Initialized
+INFO - 2024-10-03 12:34:29 --> Config Class Initialized
+DEBUG - 2024-10-03 12:34:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 12:34:29 --> Hooks Class Initialized
+INFO - 2024-10-03 12:34:29 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 12:34:29 --> CSRF cookie sent
+INFO - 2024-10-03 12:34:29 --> Pagination Class Initialized
+INFO - 2024-10-03 12:34:29 --> Input Class Initialized
+DEBUG - 2024-10-03 12:34:29 --> UTF-8 Support Enabled
+INFO - 2024-10-03 12:34:29 --> Utf8 Class Initialized
+INFO - 2024-10-03 12:34:29 --> Language Class Initialized
+INFO - 2024-10-03 12:34:29 --> Form Validation Class Initialized
+ERROR - 2024-10-03 12:34:29 --> 404 Page Not Found: Assets/datatables
+INFO - 2024-10-03 12:34:29 --> URI Class Initialized
+INFO - 2024-10-03 12:34:29 --> Controller Class Initialized
+INFO - 2024-10-03 12:34:29 --> Router Class Initialized
+INFO - 2024-10-03 12:34:29 --> Output Class Initialized
+INFO - 2024-10-03 12:34:29 --> Model "Web_settings" initialized
+INFO - 2024-10-03 12:34:29 --> Model "reports" initialized
+INFO - 2024-10-03 12:34:29 --> Security Class Initialized
+DEBUG - 2024-10-03 12:34:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 12:34:29 --> CSRF cookie sent
+INFO - 2024-10-03 12:34:29 --> Input Class Initialized
+INFO - 2024-10-03 12:34:29 --> Model "Customers" initialized
+INFO - 2024-10-03 12:34:29 --> Language Class Initialized
+INFO - 2024-10-03 12:34:29 --> Model "Products" initialized
+ERROR - 2024-10-03 12:34:29 --> 404 Page Not Found: Assets/js
+INFO - 2024-10-03 12:34:29 --> Model "Suppliers" initialized
+DEBUG - 2024-10-03 12:34:29 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 12:34:29 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 12:34:29 --> Model "Invoices" initialized
+INFO - 2024-10-03 12:34:29 --> Model "Purchases" initialized
+INFO - 2024-10-03 12:34:29 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_home.php
+DEBUG - 2024-10-03 12:34:29 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 12:34:29 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 12:34:29 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 08:34:29 --> Model "Users" initialized
+INFO - 2024-10-03 08:34:29 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 08:34:30 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 08:34:30 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 08:34:30 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 08:34:30 --> Final output sent to browser
+DEBUG - 2024-10-03 08:34:30 --> Total execution time: 1.1061
+ERROR - 2024-10-03 12:34:33 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 12:34:33 --> Config Class Initialized
+INFO - 2024-10-03 12:34:33 --> Hooks Class Initialized
+DEBUG - 2024-10-03 12:34:33 --> UTF-8 Support Enabled
+INFO - 2024-10-03 12:34:33 --> Utf8 Class Initialized
+INFO - 2024-10-03 12:34:33 --> URI Class Initialized
+INFO - 2024-10-03 12:34:33 --> Router Class Initialized
+INFO - 2024-10-03 12:34:33 --> Output Class Initialized
+INFO - 2024-10-03 12:34:33 --> Security Class Initialized
+DEBUG - 2024-10-03 12:34:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 12:34:33 --> CSRF cookie sent
+INFO - 2024-10-03 12:34:33 --> Input Class Initialized
+INFO - 2024-10-03 12:34:33 --> Language Class Initialized
+INFO - 2024-10-03 12:34:33 --> Loader Class Initialized
+INFO - 2024-10-03 12:34:33 --> Helper loaded: url_helper
+INFO - 2024-10-03 12:34:33 --> Helper loaded: file_helper
+INFO - 2024-10-03 12:34:33 --> Helper loaded: form_helper
+INFO - 2024-10-03 12:34:33 --> Helper loaded: lang_helper
+INFO - 2024-10-03 12:34:33 --> Database Driver Class Initialized
+INFO - 2024-10-03 12:34:33 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 12:34:33 --> Parser Class Initialized
+INFO - 2024-10-03 12:34:33 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 12:34:33 --> Pagination Class Initialized
+INFO - 2024-10-03 12:34:33 --> Form Validation Class Initialized
+INFO - 2024-10-03 12:34:33 --> Controller Class Initialized
+DEBUG - 2024-10-03 12:34:33 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 12:34:33 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 12:34:33 --> Model "Web_settings" initialized
+INFO - 2024-10-03 12:34:33 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 12:34:33 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\hr/federal_taxes.php
+DEBUG - 2024-10-03 12:34:33 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 12:34:33 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 12:34:33 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 12:34:33 --> Model "Products" initialized
+INFO - 2024-10-03 08:34:33 --> Model "reports" initialized
+INFO - 2024-10-03 08:34:33 --> Model "Users" initialized
+INFO - 2024-10-03 08:34:34 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 08:34:34 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 08:34:34 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 08:34:34 --> Final output sent to browser
+DEBUG - 2024-10-03 08:34:34 --> Total execution time: 0.8229
+ERROR - 2024-10-03 12:34:34 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 12:34:34 --> Config Class Initialized
+INFO - 2024-10-03 12:34:34 --> Hooks Class Initialized
+DEBUG - 2024-10-03 12:34:34 --> UTF-8 Support Enabled
+INFO - 2024-10-03 12:34:34 --> Utf8 Class Initialized
+INFO - 2024-10-03 12:34:34 --> URI Class Initialized
+DEBUG - 2024-10-03 12:34:34 --> No URI present. Default controller set.
+INFO - 2024-10-03 12:34:34 --> Router Class Initialized
+INFO - 2024-10-03 12:34:34 --> Output Class Initialized
+INFO - 2024-10-03 12:34:34 --> Security Class Initialized
+DEBUG - 2024-10-03 12:34:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 12:34:34 --> CSRF cookie sent
+INFO - 2024-10-03 12:34:34 --> Input Class Initialized
+INFO - 2024-10-03 12:34:34 --> Language Class Initialized
+INFO - 2024-10-03 12:34:34 --> Loader Class Initialized
+INFO - 2024-10-03 12:34:34 --> Helper loaded: url_helper
+INFO - 2024-10-03 12:34:34 --> Helper loaded: file_helper
+INFO - 2024-10-03 12:34:34 --> Helper loaded: form_helper
+INFO - 2024-10-03 12:34:34 --> Helper loaded: lang_helper
+INFO - 2024-10-03 12:34:34 --> Database Driver Class Initialized
+INFO - 2024-10-03 12:34:34 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 12:34:34 --> Parser Class Initialized
+INFO - 2024-10-03 12:34:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 12:34:34 --> Pagination Class Initialized
+INFO - 2024-10-03 12:34:34 --> Form Validation Class Initialized
+INFO - 2024-10-03 12:34:34 --> Controller Class Initialized
+INFO - 2024-10-03 12:34:34 --> Model "Web_settings" initialized
+INFO - 2024-10-03 12:34:34 --> Model "reports" initialized
+INFO - 2024-10-03 12:34:34 --> Model "Customers" initialized
+INFO - 2024-10-03 12:34:34 --> Model "Products" initialized
+INFO - 2024-10-03 12:34:34 --> Model "Suppliers" initialized
+DEBUG - 2024-10-03 12:34:34 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 12:34:34 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 12:34:34 --> Model "Invoices" initialized
+INFO - 2024-10-03 12:34:34 --> Model "Purchases" initialized
+INFO - 2024-10-03 12:34:34 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_home.php
+DEBUG - 2024-10-03 12:34:34 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 12:34:34 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 12:34:34 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 08:34:34 --> Model "Users" initialized
+INFO - 2024-10-03 08:34:34 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 08:34:35 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 08:34:35 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 08:34:35 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 08:34:35 --> Final output sent to browser
+DEBUG - 2024-10-03 08:34:35 --> Total execution time: 1.1048
+ERROR - 2024-10-03 13:07:41 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:07:41 --> Config Class Initialized
+INFO - 2024-10-03 13:07:41 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:07:41 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:07:41 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:07:41 --> URI Class Initialized
+INFO - 2024-10-03 13:07:41 --> Router Class Initialized
+INFO - 2024-10-03 13:07:41 --> Output Class Initialized
+INFO - 2024-10-03 13:07:41 --> Security Class Initialized
+DEBUG - 2024-10-03 13:07:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:07:41 --> CSRF cookie sent
+INFO - 2024-10-03 13:07:41 --> Input Class Initialized
+INFO - 2024-10-03 13:07:41 --> Language Class Initialized
+INFO - 2024-10-03 13:07:41 --> Loader Class Initialized
+INFO - 2024-10-03 13:07:41 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:07:41 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:07:41 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:07:41 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:07:41 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:07:41 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:07:41 --> Parser Class Initialized
+INFO - 2024-10-03 13:07:41 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:07:41 --> Pagination Class Initialized
+INFO - 2024-10-03 13:07:41 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:07:41 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:07:41 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:07:41 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:07:41 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:07:41 --> Model "Hrm_model" initialized
+ERROR - 2024-10-03 13:07:41 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:07:41 --> Config Class Initialized
+INFO - 2024-10-03 13:07:41 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:07:41 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:07:41 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:07:41 --> URI Class Initialized
+INFO - 2024-10-03 13:07:41 --> Router Class Initialized
+INFO - 2024-10-03 13:07:41 --> Output Class Initialized
+INFO - 2024-10-03 13:07:41 --> Security Class Initialized
+DEBUG - 2024-10-03 13:07:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:07:41 --> CSRF cookie sent
+INFO - 2024-10-03 13:07:41 --> Input Class Initialized
+INFO - 2024-10-03 13:07:41 --> Language Class Initialized
+INFO - 2024-10-03 13:07:41 --> Loader Class Initialized
+INFO - 2024-10-03 13:07:41 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:07:41 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:07:41 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:07:41 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:07:41 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:07:41 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:07:41 --> Parser Class Initialized
+INFO - 2024-10-03 13:07:41 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:07:41 --> Pagination Class Initialized
+INFO - 2024-10-03 13:07:41 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:07:41 --> Controller Class Initialized
+INFO - 2024-10-03 13:07:41 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:07:41 --> Model "reports" initialized
+INFO - 2024-10-03 13:07:41 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\user/admin_login_form.php
+DEBUG - 2024-10-03 13:07:41 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:07:41 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:07:41 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 13:07:41 --> Model "Products" initialized
+INFO - 2024-10-03 13:07:41 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 13:07:41 --> Final output sent to browser
+DEBUG - 2024-10-03 13:07:41 --> Total execution time: 0.0445
+ERROR - 2024-10-03 13:07:41 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:07:41 --> Config Class Initialized
+INFO - 2024-10-03 13:07:41 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:07:41 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:07:41 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:07:41 --> URI Class Initialized
+INFO - 2024-10-03 13:07:41 --> Router Class Initialized
+INFO - 2024-10-03 13:07:41 --> Output Class Initialized
+ERROR - 2024-10-03 13:07:41 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:07:41 --> Security Class Initialized
+DEBUG - 2024-10-03 13:07:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:07:41 --> Config Class Initialized
+INFO - 2024-10-03 13:07:41 --> CSRF cookie sent
+INFO - 2024-10-03 13:07:41 --> Hooks Class Initialized
+INFO - 2024-10-03 13:07:41 --> Input Class Initialized
+INFO - 2024-10-03 13:07:41 --> Language Class Initialized
+DEBUG - 2024-10-03 13:07:41 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:07:41 --> Utf8 Class Initialized
+ERROR - 2024-10-03 13:07:41 --> 404 Page Not Found: Assets/css
+INFO - 2024-10-03 13:07:41 --> URI Class Initialized
+INFO - 2024-10-03 13:07:41 --> Router Class Initialized
+INFO - 2024-10-03 13:07:41 --> Output Class Initialized
+INFO - 2024-10-03 13:07:41 --> Security Class Initialized
+DEBUG - 2024-10-03 13:07:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:07:41 --> CSRF cookie sent
+INFO - 2024-10-03 13:07:41 --> Input Class Initialized
+INFO - 2024-10-03 13:07:41 --> Language Class Initialized
+ERROR - 2024-10-03 13:07:41 --> 404 Page Not Found: Assets/js
+ERROR - 2024-10-03 13:07:41 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:07:41 --> Config Class Initialized
+INFO - 2024-10-03 13:07:41 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:07:41 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:07:41 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:07:41 --> URI Class Initialized
+INFO - 2024-10-03 13:07:41 --> Router Class Initialized
+INFO - 2024-10-03 13:07:41 --> Output Class Initialized
+INFO - 2024-10-03 13:07:41 --> Security Class Initialized
+DEBUG - 2024-10-03 13:07:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:07:41 --> CSRF cookie sent
+INFO - 2024-10-03 13:07:41 --> Input Class Initialized
+INFO - 2024-10-03 13:07:41 --> Language Class Initialized
+ERROR - 2024-10-03 13:07:41 --> 404 Page Not Found: Assets/datatables
+ERROR - 2024-10-03 13:07:41 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:07:41 --> Config Class Initialized
+INFO - 2024-10-03 13:07:41 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:07:41 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:07:41 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:07:41 --> URI Class Initialized
+INFO - 2024-10-03 13:07:41 --> Router Class Initialized
+INFO - 2024-10-03 13:07:41 --> Output Class Initialized
+INFO - 2024-10-03 13:07:41 --> Security Class Initialized
+DEBUG - 2024-10-03 13:07:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:07:41 --> CSRF cookie sent
+INFO - 2024-10-03 13:07:41 --> Input Class Initialized
+INFO - 2024-10-03 13:07:41 --> Language Class Initialized
+ERROR - 2024-10-03 13:07:41 --> 404 Page Not Found: Assets/js
+ERROR - 2024-10-03 13:07:46 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:07:46 --> Config Class Initialized
+INFO - 2024-10-03 13:07:46 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:07:46 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:07:46 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:07:46 --> URI Class Initialized
+INFO - 2024-10-03 13:07:46 --> Router Class Initialized
+INFO - 2024-10-03 13:07:46 --> Output Class Initialized
+INFO - 2024-10-03 13:07:46 --> Security Class Initialized
+DEBUG - 2024-10-03 13:07:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:07:46 --> CSRF cookie sent
+INFO - 2024-10-03 13:07:46 --> CSRF token verified
+INFO - 2024-10-03 13:07:46 --> Input Class Initialized
+INFO - 2024-10-03 13:07:46 --> Language Class Initialized
+INFO - 2024-10-03 13:07:46 --> Loader Class Initialized
+INFO - 2024-10-03 13:07:46 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:07:46 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:07:46 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:07:46 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:07:46 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:07:46 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:07:46 --> Parser Class Initialized
+INFO - 2024-10-03 13:07:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:07:46 --> Pagination Class Initialized
+INFO - 2024-10-03 13:07:46 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:07:46 --> Controller Class Initialized
+INFO - 2024-10-03 13:07:46 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:07:46 --> Model "reports" initialized
+DEBUG - 2024-10-03 13:07:46 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:07:46 --> Email Class Initialized
+ERROR - 2024-10-03 13:07:48 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() D:\wamp64\www\Wagers_03Oct24\system\libraries\Email.php 1902
+INFO - 2024-10-03 13:07:48 --> Language file loaded: language/english/email_lang.php
+ERROR - 2024-10-03 13:07:48 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:07:48 --> Config Class Initialized
+INFO - 2024-10-03 13:07:48 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:07:48 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:07:48 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:07:48 --> URI Class Initialized
+INFO - 2024-10-03 13:07:48 --> Router Class Initialized
+INFO - 2024-10-03 13:07:48 --> Output Class Initialized
+INFO - 2024-10-03 13:07:48 --> Security Class Initialized
+DEBUG - 2024-10-03 13:07:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:07:48 --> CSRF cookie sent
+INFO - 2024-10-03 13:07:48 --> Input Class Initialized
+INFO - 2024-10-03 13:07:48 --> Language Class Initialized
+INFO - 2024-10-03 13:07:48 --> Loader Class Initialized
+INFO - 2024-10-03 13:07:48 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:07:48 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:07:48 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:07:48 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:07:48 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:07:48 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:07:48 --> Parser Class Initialized
+INFO - 2024-10-03 13:07:48 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:07:48 --> Pagination Class Initialized
+INFO - 2024-10-03 13:07:48 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:07:48 --> Controller Class Initialized
+INFO - 2024-10-03 13:07:48 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:07:48 --> Model "reports" initialized
+ERROR - 2024-10-03 13:07:48 --> Severity: Notice --> Trying to access array offset on value of type bool D:\wamp64\www\Wagers_03Oct24\application\controllers\Admin_dashboard.php 1411
+ERROR - 2024-10-03 13:07:48 --> Severity: Notice --> Trying to access array offset on value of type null D:\wamp64\www\Wagers_03Oct24\application\controllers\Admin_dashboard.php 1411
+ERROR - 2024-10-03 13:07:48 --> Severity: Notice --> Trying to access array offset on value of type bool D:\wamp64\www\Wagers_03Oct24\application\controllers\Admin_dashboard.php 1411
+ERROR - 2024-10-03 13:07:48 --> Severity: Notice --> Trying to access array offset on value of type null D:\wamp64\www\Wagers_03Oct24\application\controllers\Admin_dashboard.php 1411
+INFO - 2024-10-03 13:07:48 --> Model "Users" initialized
+ERROR - 2024-10-03 13:07:48 --> Severity: Notice --> Undefined index: first_name D:\wamp64\www\Wagers_03Oct24\application\libraries\Auth.php 52
+ERROR - 2024-10-03 13:07:48 --> Severity: Notice --> Undefined index: last_name D:\wamp64\www\Wagers_03Oct24\application\libraries\Auth.php 52
+INFO - 2024-10-03 13:07:48 --> Final output sent to browser
+DEBUG - 2024-10-03 13:07:48 --> Total execution time: 0.0125
+ERROR - 2024-10-03 13:07:48 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:07:48 --> Config Class Initialized
+INFO - 2024-10-03 13:07:48 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:07:48 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:07:48 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:07:48 --> URI Class Initialized
+DEBUG - 2024-10-03 13:07:48 --> No URI present. Default controller set.
+INFO - 2024-10-03 13:07:48 --> Router Class Initialized
+INFO - 2024-10-03 13:07:48 --> Output Class Initialized
+INFO - 2024-10-03 13:07:48 --> Security Class Initialized
+DEBUG - 2024-10-03 13:07:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:07:48 --> CSRF cookie sent
+INFO - 2024-10-03 13:07:48 --> Input Class Initialized
+INFO - 2024-10-03 13:07:48 --> Language Class Initialized
+INFO - 2024-10-03 13:07:48 --> Loader Class Initialized
+INFO - 2024-10-03 13:07:48 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:07:48 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:07:48 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:07:48 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:07:48 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:07:48 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:07:48 --> Parser Class Initialized
+INFO - 2024-10-03 13:07:48 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:07:48 --> Pagination Class Initialized
+INFO - 2024-10-03 13:07:48 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:07:48 --> Controller Class Initialized
+INFO - 2024-10-03 13:07:48 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:07:48 --> Model "reports" initialized
+INFO - 2024-10-03 13:07:48 --> Model "Customers" initialized
+INFO - 2024-10-03 13:07:48 --> Model "Products" initialized
+INFO - 2024-10-03 13:07:48 --> Model "Suppliers" initialized
+DEBUG - 2024-10-03 13:07:48 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:07:48 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:07:48 --> Model "Invoices" initialized
+INFO - 2024-10-03 13:07:48 --> Model "Purchases" initialized
+INFO - 2024-10-03 13:07:48 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_home.php
+DEBUG - 2024-10-03 13:07:48 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:07:48 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:07:48 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 09:07:48 --> Model "Users" initialized
+INFO - 2024-10-03 09:07:48 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 09:07:49 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:07:49 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:07:49 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:07:49 --> Final output sent to browser
+DEBUG - 2024-10-03 09:07:49 --> Total execution time: 1.1011
+ERROR - 2024-10-03 13:07:49 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:07:49 --> Config Class Initialized
+INFO - 2024-10-03 13:07:49 --> Hooks Class Initialized
+ERROR - 2024-10-03 13:07:49 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+DEBUG - 2024-10-03 13:07:49 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:07:49 --> Utf8 Class Initialized
+ERROR - 2024-10-03 13:07:49 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:07:49 --> Config Class Initialized
+INFO - 2024-10-03 13:07:49 --> Hooks Class Initialized
+INFO - 2024-10-03 13:07:49 --> URI Class Initialized
+INFO - 2024-10-03 13:07:49 --> Config Class Initialized
+DEBUG - 2024-10-03 13:07:49 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:07:49 --> Hooks Class Initialized
+INFO - 2024-10-03 13:07:49 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:07:49 --> Router Class Initialized
+DEBUG - 2024-10-03 13:07:49 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:07:49 --> URI Class Initialized
+INFO - 2024-10-03 13:07:49 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:07:49 --> Output Class Initialized
+INFO - 2024-10-03 13:07:49 --> Router Class Initialized
+INFO - 2024-10-03 13:07:49 --> URI Class Initialized
+INFO - 2024-10-03 13:07:49 --> Security Class Initialized
+INFO - 2024-10-03 13:07:49 --> Output Class Initialized
+INFO - 2024-10-03 13:07:49 --> Security Class Initialized
+DEBUG - 2024-10-03 13:07:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-10-03 13:07:49 --> No URI present. Default controller set.
+INFO - 2024-10-03 13:07:49 --> CSRF cookie sent
+DEBUG - 2024-10-03 13:07:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:07:49 --> Router Class Initialized
+INFO - 2024-10-03 13:07:49 --> Input Class Initialized
+INFO - 2024-10-03 13:07:49 --> CSRF cookie sent
+INFO - 2024-10-03 13:07:49 --> Input Class Initialized
+INFO - 2024-10-03 13:07:49 --> Language Class Initialized
+INFO - 2024-10-03 13:07:49 --> Output Class Initialized
+INFO - 2024-10-03 13:07:49 --> Language Class Initialized
+ERROR - 2024-10-03 13:07:49 --> 404 Page Not Found: Assets/css
+INFO - 2024-10-03 13:07:49 --> Security Class Initialized
+ERROR - 2024-10-03 13:07:49 --> 404 Page Not Found: Assets/js
+DEBUG - 2024-10-03 13:07:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:07:49 --> CSRF cookie sent
+INFO - 2024-10-03 13:07:49 --> Input Class Initialized
+INFO - 2024-10-03 13:07:49 --> Language Class Initialized
+INFO - 2024-10-03 13:07:49 --> Loader Class Initialized
+INFO - 2024-10-03 13:07:49 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:07:49 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:07:49 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:07:49 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:07:49 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:07:49 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:07:49 --> Parser Class Initialized
+INFO - 2024-10-03 13:07:49 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:07:49 --> Pagination Class Initialized
+INFO - 2024-10-03 13:07:49 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:07:49 --> Controller Class Initialized
+INFO - 2024-10-03 13:07:49 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:07:49 --> Model "reports" initialized
+INFO - 2024-10-03 13:07:49 --> Model "Customers" initialized
+INFO - 2024-10-03 13:07:49 --> Model "Products" initialized
+INFO - 2024-10-03 13:07:49 --> Model "Suppliers" initialized
+DEBUG - 2024-10-03 13:07:49 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:07:49 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:07:49 --> Model "Invoices" initialized
+INFO - 2024-10-03 13:07:49 --> Model "Purchases" initialized
+ERROR - 2024-10-03 13:07:49 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:07:49 --> Config Class Initialized
+INFO - 2024-10-03 13:07:49 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:07:49 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:07:49 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:07:49 --> URI Class Initialized
+ERROR - 2024-10-03 13:07:49 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:07:49 --> Router Class Initialized
+INFO - 2024-10-03 13:07:49 --> Config Class Initialized
+INFO - 2024-10-03 13:07:49 --> Hooks Class Initialized
+INFO - 2024-10-03 13:07:49 --> Output Class Initialized
+DEBUG - 2024-10-03 13:07:49 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:07:49 --> Security Class Initialized
+INFO - 2024-10-03 13:07:49 --> Utf8 Class Initialized
+DEBUG - 2024-10-03 13:07:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:07:49 --> URI Class Initialized
+INFO - 2024-10-03 13:07:49 --> CSRF cookie sent
+INFO - 2024-10-03 13:07:49 --> Input Class Initialized
+INFO - 2024-10-03 13:07:49 --> Router Class Initialized
+INFO - 2024-10-03 13:07:49 --> Language Class Initialized
+INFO - 2024-10-03 13:07:49 --> Output Class Initialized
+ERROR - 2024-10-03 13:07:49 --> 404 Page Not Found: Assets/datatables
+INFO - 2024-10-03 13:07:49 --> Security Class Initialized
+DEBUG - 2024-10-03 13:07:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:07:49 --> CSRF cookie sent
+INFO - 2024-10-03 13:07:49 --> Input Class Initialized
+INFO - 2024-10-03 13:07:49 --> Language Class Initialized
+ERROR - 2024-10-03 13:07:49 --> 404 Page Not Found: Assets/js
+INFO - 2024-10-03 13:07:49 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_home.php
+DEBUG - 2024-10-03 13:07:49 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:07:49 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:07:49 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 09:07:49 --> Model "Users" initialized
+INFO - 2024-10-03 09:07:49 --> Model "Hrm_model" initialized
+ERROR - 2024-10-03 13:07:50 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:07:50 --> Config Class Initialized
+INFO - 2024-10-03 13:07:50 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:07:50 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:07:50 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:07:50 --> URI Class Initialized
+INFO - 2024-10-03 13:07:50 --> Router Class Initialized
+INFO - 2024-10-03 13:07:50 --> Output Class Initialized
+INFO - 2024-10-03 13:07:50 --> Security Class Initialized
+DEBUG - 2024-10-03 13:07:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:07:50 --> CSRF cookie sent
+INFO - 2024-10-03 13:07:50 --> Input Class Initialized
+INFO - 2024-10-03 13:07:50 --> Language Class Initialized
+INFO - 2024-10-03 13:07:50 --> Loader Class Initialized
+INFO - 2024-10-03 13:07:50 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:07:50 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:07:50 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:07:50 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:07:50 --> Database Driver Class Initialized
+ERROR - 2024-10-03 13:07:50 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:07:50 --> Config Class Initialized
+INFO - 2024-10-03 13:07:50 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:07:50 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:07:50 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:07:50 --> URI Class Initialized
+INFO - 2024-10-03 13:07:50 --> Router Class Initialized
+INFO - 2024-10-03 13:07:50 --> Output Class Initialized
+INFO - 2024-10-03 13:07:50 --> Security Class Initialized
+DEBUG - 2024-10-03 13:07:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:07:50 --> CSRF cookie sent
+INFO - 2024-10-03 13:07:50 --> Input Class Initialized
+INFO - 2024-10-03 13:07:50 --> Language Class Initialized
+INFO - 2024-10-03 13:07:50 --> Loader Class Initialized
+INFO - 2024-10-03 13:07:50 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:07:50 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:07:50 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:07:50 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:07:50 --> Database Driver Class Initialized
+INFO - 2024-10-03 09:07:50 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:07:50 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:07:50 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:07:50 --> Final output sent to browser
+DEBUG - 2024-10-03 09:07:50 --> Total execution time: 1.2076
+INFO - 2024-10-03 13:07:50 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:07:50 --> Parser Class Initialized
+INFO - 2024-10-03 13:07:50 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:07:50 --> Pagination Class Initialized
+INFO - 2024-10-03 13:07:50 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:07:50 --> Controller Class Initialized
+INFO - 2024-10-03 13:07:50 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:07:50 --> Model "reports" initialized
+INFO - 2024-10-03 13:07:50 --> Final output sent to browser
+DEBUG - 2024-10-03 13:07:50 --> Total execution time: 0.4558
+INFO - 2024-10-03 13:07:50 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:07:50 --> Parser Class Initialized
+INFO - 2024-10-03 13:07:50 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:07:50 --> Pagination Class Initialized
+INFO - 2024-10-03 13:07:50 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:07:50 --> Controller Class Initialized
+INFO - 2024-10-03 13:07:50 --> Model "Web_settings" initialized
+DEBUG - 2024-10-03 13:07:50 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:07:50 --> Final output sent to browser
+DEBUG - 2024-10-03 13:07:50 --> Total execution time: 0.4390
+ERROR - 2024-10-03 13:07:56 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:07:56 --> Config Class Initialized
+INFO - 2024-10-03 13:07:56 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:07:56 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:07:56 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:07:56 --> URI Class Initialized
+INFO - 2024-10-03 13:07:56 --> Router Class Initialized
+INFO - 2024-10-03 13:07:56 --> Output Class Initialized
+INFO - 2024-10-03 13:07:56 --> Security Class Initialized
+DEBUG - 2024-10-03 13:07:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:07:56 --> CSRF cookie sent
+INFO - 2024-10-03 13:07:56 --> Input Class Initialized
+INFO - 2024-10-03 13:07:56 --> Language Class Initialized
+INFO - 2024-10-03 13:07:56 --> Loader Class Initialized
+INFO - 2024-10-03 13:07:56 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:07:56 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:07:56 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:07:56 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:07:56 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:07:56 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:07:56 --> Parser Class Initialized
+INFO - 2024-10-03 13:07:56 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:07:56 --> Pagination Class Initialized
+INFO - 2024-10-03 13:07:56 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:07:56 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:07:56 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:07:56 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:07:56 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:07:56 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:07:56 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\hr/federal_taxes.php
+DEBUG - 2024-10-03 13:07:56 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:07:56 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:07:56 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 13:07:56 --> Model "Products" initialized
+INFO - 2024-10-03 09:07:56 --> Model "reports" initialized
+INFO - 2024-10-03 09:07:56 --> Model "Users" initialized
+INFO - 2024-10-03 09:07:56 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:07:56 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:07:56 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:07:56 --> Final output sent to browser
+DEBUG - 2024-10-03 09:07:56 --> Total execution time: 0.8720
+ERROR - 2024-10-03 13:07:56 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+ERROR - 2024-10-03 13:07:56 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:07:56 --> Config Class Initialized
+INFO - 2024-10-03 13:07:56 --> Hooks Class Initialized
+INFO - 2024-10-03 13:07:56 --> Config Class Initialized
+INFO - 2024-10-03 13:07:56 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:07:56 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:07:56 --> Utf8 Class Initialized
+DEBUG - 2024-10-03 13:07:56 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:07:56 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:07:56 --> URI Class Initialized
+INFO - 2024-10-03 13:07:56 --> URI Class Initialized
+INFO - 2024-10-03 13:07:56 --> Router Class Initialized
+DEBUG - 2024-10-03 13:07:56 --> No URI present. Default controller set.
+INFO - 2024-10-03 13:07:56 --> Router Class Initialized
+INFO - 2024-10-03 13:07:56 --> Output Class Initialized
+INFO - 2024-10-03 13:07:56 --> Output Class Initialized
+INFO - 2024-10-03 13:07:56 --> Security Class Initialized
+INFO - 2024-10-03 13:07:56 --> Security Class Initialized
+DEBUG - 2024-10-03 13:07:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:07:56 --> CSRF cookie sent
+DEBUG - 2024-10-03 13:07:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:07:56 --> Input Class Initialized
+INFO - 2024-10-03 13:07:56 --> CSRF cookie sent
+INFO - 2024-10-03 13:07:56 --> Language Class Initialized
+INFO - 2024-10-03 13:07:56 --> Input Class Initialized
+ERROR - 2024-10-03 13:07:56 --> 404 Page Not Found: Assets/css
+INFO - 2024-10-03 13:07:56 --> Language Class Initialized
+INFO - 2024-10-03 13:07:56 --> Loader Class Initialized
+INFO - 2024-10-03 13:07:56 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:07:56 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:07:56 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:07:56 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:07:56 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:07:56 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:07:56 --> Parser Class Initialized
+INFO - 2024-10-03 13:07:56 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:07:56 --> Pagination Class Initialized
+INFO - 2024-10-03 13:07:56 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:07:56 --> Controller Class Initialized
+INFO - 2024-10-03 13:07:56 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:07:56 --> Model "reports" initialized
+INFO - 2024-10-03 13:07:56 --> Model "Customers" initialized
+INFO - 2024-10-03 13:07:56 --> Model "Products" initialized
+INFO - 2024-10-03 13:07:56 --> Model "Suppliers" initialized
+DEBUG - 2024-10-03 13:07:56 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:07:56 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:07:56 --> Model "Invoices" initialized
+INFO - 2024-10-03 13:07:56 --> Model "Purchases" initialized
+ERROR - 2024-10-03 13:07:56 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:07:56 --> Config Class Initialized
+INFO - 2024-10-03 13:07:56 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:07:56 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:07:56 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:07:56 --> URI Class Initialized
+INFO - 2024-10-03 13:07:56 --> Router Class Initialized
+INFO - 2024-10-03 13:07:56 --> Output Class Initialized
+INFO - 2024-10-03 13:07:56 --> Security Class Initialized
+DEBUG - 2024-10-03 13:07:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:07:56 --> CSRF cookie sent
+INFO - 2024-10-03 13:07:56 --> Input Class Initialized
+INFO - 2024-10-03 13:07:56 --> Language Class Initialized
+ERROR - 2024-10-03 13:07:56 --> 404 Page Not Found: Assets/js
+ERROR - 2024-10-03 13:07:56 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+ERROR - 2024-10-03 13:07:56 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:07:56 --> Config Class Initialized
+INFO - 2024-10-03 13:07:56 --> Config Class Initialized
+INFO - 2024-10-03 13:07:56 --> Hooks Class Initialized
+INFO - 2024-10-03 13:07:56 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:07:56 --> UTF-8 Support Enabled
+DEBUG - 2024-10-03 13:07:56 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:07:56 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:07:56 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:07:56 --> URI Class Initialized
+INFO - 2024-10-03 13:07:56 --> URI Class Initialized
+INFO - 2024-10-03 13:07:56 --> Router Class Initialized
+INFO - 2024-10-03 13:07:56 --> Router Class Initialized
+INFO - 2024-10-03 13:07:56 --> Output Class Initialized
+INFO - 2024-10-03 13:07:56 --> Output Class Initialized
+INFO - 2024-10-03 13:07:56 --> Security Class Initialized
+DEBUG - 2024-10-03 13:07:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:07:56 --> Security Class Initialized
+INFO - 2024-10-03 13:07:56 --> CSRF cookie sent
+INFO - 2024-10-03 13:07:56 --> Input Class Initialized
+DEBUG - 2024-10-03 13:07:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:07:56 --> CSRF cookie sent
+INFO - 2024-10-03 13:07:56 --> Language Class Initialized
+INFO - 2024-10-03 13:07:56 --> Input Class Initialized
+ERROR - 2024-10-03 13:07:56 --> 404 Page Not Found: Assets/js
+INFO - 2024-10-03 13:07:56 --> Language Class Initialized
+ERROR - 2024-10-03 13:07:56 --> 404 Page Not Found: Assets/datatables
+INFO - 2024-10-03 13:07:57 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_home.php
+DEBUG - 2024-10-03 13:07:57 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:07:57 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:07:57 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 09:07:57 --> Model "Users" initialized
+INFO - 2024-10-03 09:07:57 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 09:07:58 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:07:58 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:07:58 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:07:58 --> Final output sent to browser
+DEBUG - 2024-10-03 09:07:58 --> Total execution time: 1.0984
+ERROR - 2024-10-03 13:08:02 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:08:02 --> Config Class Initialized
+INFO - 2024-10-03 13:08:02 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:08:02 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:08:02 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:08:02 --> URI Class Initialized
+INFO - 2024-10-03 13:08:02 --> Router Class Initialized
+INFO - 2024-10-03 13:08:02 --> Output Class Initialized
+INFO - 2024-10-03 13:08:02 --> Security Class Initialized
+DEBUG - 2024-10-03 13:08:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:08:02 --> CSRF cookie sent
+INFO - 2024-10-03 13:08:02 --> Input Class Initialized
+INFO - 2024-10-03 13:08:02 --> Language Class Initialized
+INFO - 2024-10-03 13:08:02 --> Loader Class Initialized
+INFO - 2024-10-03 13:08:02 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:08:02 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:08:02 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:08:02 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:08:02 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:08:02 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:08:02 --> Parser Class Initialized
+INFO - 2024-10-03 13:08:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:08:02 --> Pagination Class Initialized
+INFO - 2024-10-03 13:08:02 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:08:02 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:08:02 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:08:02 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:08:02 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:08:02 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:08:02 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\hr/add_state_tax_detail.php
+DEBUG - 2024-10-03 13:08:02 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:08:02 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:08:02 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 13:08:02 --> Model "Products" initialized
+INFO - 2024-10-03 09:08:02 --> Model "reports" initialized
+INFO - 2024-10-03 09:08:02 --> Model "Users" initialized
+INFO - 2024-10-03 09:08:03 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:08:03 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:08:03 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:08:03 --> Final output sent to browser
+DEBUG - 2024-10-03 09:08:03 --> Total execution time: 0.9756
+ERROR - 2024-10-03 13:08:03 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+ERROR - 2024-10-03 13:08:03 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:08:03 --> Config Class Initialized
+INFO - 2024-10-03 13:08:03 --> Hooks Class Initialized
+INFO - 2024-10-03 13:08:03 --> Config Class Initialized
+INFO - 2024-10-03 13:08:03 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:08:03 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:08:03 --> Utf8 Class Initialized
+DEBUG - 2024-10-03 13:08:03 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:08:03 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:08:03 --> URI Class Initialized
+INFO - 2024-10-03 13:08:03 --> URI Class Initialized
+INFO - 2024-10-03 13:08:03 --> Router Class Initialized
+DEBUG - 2024-10-03 13:08:03 --> No URI present. Default controller set.
+INFO - 2024-10-03 13:08:03 --> Output Class Initialized
+INFO - 2024-10-03 13:08:03 --> Router Class Initialized
+INFO - 2024-10-03 13:08:03 --> Security Class Initialized
+INFO - 2024-10-03 13:08:03 --> Output Class Initialized
+DEBUG - 2024-10-03 13:08:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:08:03 --> CSRF cookie sent
+INFO - 2024-10-03 13:08:03 --> Security Class Initialized
+INFO - 2024-10-03 13:08:03 --> Input Class Initialized
+DEBUG - 2024-10-03 13:08:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:08:03 --> Language Class Initialized
+INFO - 2024-10-03 13:08:03 --> CSRF cookie sent
+INFO - 2024-10-03 13:08:03 --> Input Class Initialized
+ERROR - 2024-10-03 13:08:03 --> 404 Page Not Found: Assets/css
+INFO - 2024-10-03 13:08:03 --> Language Class Initialized
+INFO - 2024-10-03 13:08:03 --> Loader Class Initialized
+INFO - 2024-10-03 13:08:03 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:08:03 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:08:03 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:08:03 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:08:03 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:08:03 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:08:03 --> Parser Class Initialized
+INFO - 2024-10-03 13:08:03 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:08:03 --> Pagination Class Initialized
+INFO - 2024-10-03 13:08:03 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:08:03 --> Controller Class Initialized
+INFO - 2024-10-03 13:08:03 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:08:03 --> Model "reports" initialized
+INFO - 2024-10-03 13:08:03 --> Model "Customers" initialized
+INFO - 2024-10-03 13:08:03 --> Model "Products" initialized
+INFO - 2024-10-03 13:08:03 --> Model "Suppliers" initialized
+DEBUG - 2024-10-03 13:08:03 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:08:03 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:08:03 --> Model "Invoices" initialized
+INFO - 2024-10-03 13:08:03 --> Model "Purchases" initialized
+ERROR - 2024-10-03 13:08:03 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:08:03 --> Config Class Initialized
+INFO - 2024-10-03 13:08:03 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:08:03 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:08:03 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:08:03 --> URI Class Initialized
+INFO - 2024-10-03 13:08:03 --> Router Class Initialized
+INFO - 2024-10-03 13:08:03 --> Output Class Initialized
+INFO - 2024-10-03 13:08:03 --> Security Class Initialized
+DEBUG - 2024-10-03 13:08:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:08:03 --> CSRF cookie sent
+INFO - 2024-10-03 13:08:03 --> Input Class Initialized
+INFO - 2024-10-03 13:08:03 --> Language Class Initialized
+ERROR - 2024-10-03 13:08:03 --> 404 Page Not Found: Assets/js
+ERROR - 2024-10-03 13:08:03 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+ERROR - 2024-10-03 13:08:03 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:08:03 --> Config Class Initialized
+INFO - 2024-10-03 13:08:03 --> Hooks Class Initialized
+INFO - 2024-10-03 13:08:03 --> Config Class Initialized
+INFO - 2024-10-03 13:08:03 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:08:03 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:08:03 --> Utf8 Class Initialized
+DEBUG - 2024-10-03 13:08:03 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:08:03 --> URI Class Initialized
+INFO - 2024-10-03 13:08:03 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:08:03 --> URI Class Initialized
+INFO - 2024-10-03 13:08:03 --> Router Class Initialized
+INFO - 2024-10-03 13:08:03 --> Router Class Initialized
+INFO - 2024-10-03 13:08:03 --> Output Class Initialized
+INFO - 2024-10-03 13:08:03 --> Output Class Initialized
+INFO - 2024-10-03 13:08:03 --> Security Class Initialized
+INFO - 2024-10-03 13:08:03 --> Security Class Initialized
+DEBUG - 2024-10-03 13:08:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:08:03 --> CSRF cookie sent
+DEBUG - 2024-10-03 13:08:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:08:03 --> Input Class Initialized
+INFO - 2024-10-03 13:08:03 --> CSRF cookie sent
+INFO - 2024-10-03 13:08:03 --> Language Class Initialized
+INFO - 2024-10-03 13:08:03 --> Input Class Initialized
+ERROR - 2024-10-03 13:08:03 --> 404 Page Not Found: Assets/datatables
+INFO - 2024-10-03 13:08:03 --> Language Class Initialized
+ERROR - 2024-10-03 13:08:03 --> 404 Page Not Found: Assets/js
+INFO - 2024-10-03 13:08:03 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_home.php
+DEBUG - 2024-10-03 13:08:03 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:08:03 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:08:03 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 09:08:03 --> Model "Users" initialized
+INFO - 2024-10-03 09:08:03 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 09:08:04 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:08:04 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:08:04 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:08:04 --> Final output sent to browser
+DEBUG - 2024-10-03 09:08:04 --> Total execution time: 1.0819
+ERROR - 2024-10-03 13:11:45 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:11:45 --> Config Class Initialized
+INFO - 2024-10-03 13:11:45 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:11:45 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:11:45 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:11:45 --> URI Class Initialized
+INFO - 2024-10-03 13:11:45 --> Router Class Initialized
+INFO - 2024-10-03 13:11:45 --> Output Class Initialized
+INFO - 2024-10-03 13:11:45 --> Security Class Initialized
+DEBUG - 2024-10-03 13:11:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:11:45 --> CSRF cookie sent
+INFO - 2024-10-03 13:11:45 --> Input Class Initialized
+INFO - 2024-10-03 13:11:45 --> Language Class Initialized
+INFO - 2024-10-03 13:11:45 --> Loader Class Initialized
+INFO - 2024-10-03 13:11:45 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:11:45 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:11:45 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:11:45 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:11:45 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:11:45 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:11:45 --> Parser Class Initialized
+INFO - 2024-10-03 13:11:45 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:11:45 --> Pagination Class Initialized
+INFO - 2024-10-03 13:11:45 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:11:45 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:11:45 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:11:45 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:11:45 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:11:45 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:11:45 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\hr/timesheet_list.php
+DEBUG - 2024-10-03 13:11:45 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:11:45 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:11:45 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 13:11:45 --> Model "Products" initialized
+INFO - 2024-10-03 09:11:45 --> Model "reports" initialized
+INFO - 2024-10-03 09:11:45 --> Model "Users" initialized
+INFO - 2024-10-03 09:11:46 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:11:46 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:11:46 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:11:46 --> Final output sent to browser
+DEBUG - 2024-10-03 09:11:46 --> Total execution time: 1.1870
+ERROR - 2024-10-03 13:11:46 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+ERROR - 2024-10-03 13:11:46 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:11:46 --> Config Class Initialized
+INFO - 2024-10-03 13:11:46 --> Hooks Class Initialized
+INFO - 2024-10-03 13:11:46 --> Config Class Initialized
+INFO - 2024-10-03 13:11:46 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:11:46 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:11:46 --> Utf8 Class Initialized
+DEBUG - 2024-10-03 13:11:46 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:11:46 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:11:46 --> URI Class Initialized
+INFO - 2024-10-03 13:11:46 --> URI Class Initialized
+INFO - 2024-10-03 13:11:46 --> Router Class Initialized
+INFO - 2024-10-03 13:11:46 --> Router Class Initialized
+INFO - 2024-10-03 13:11:46 --> Output Class Initialized
+INFO - 2024-10-03 13:11:46 --> Output Class Initialized
+INFO - 2024-10-03 13:11:46 --> Security Class Initialized
+INFO - 2024-10-03 13:11:46 --> Security Class Initialized
+DEBUG - 2024-10-03 13:11:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:11:46 --> CSRF cookie sent
+DEBUG - 2024-10-03 13:11:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:11:46 --> Input Class Initialized
+INFO - 2024-10-03 13:11:46 --> CSRF cookie sent
+INFO - 2024-10-03 13:11:46 --> Input Class Initialized
+INFO - 2024-10-03 13:11:46 --> Language Class Initialized
+INFO - 2024-10-03 13:11:46 --> Language Class Initialized
+ERROR - 2024-10-03 13:11:46 --> 404 Page Not Found: Assets/css
+ERROR - 2024-10-03 13:11:46 --> 404 Page Not Found: Assets/js
+ERROR - 2024-10-03 13:11:46 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:11:46 --> Config Class Initialized
+INFO - 2024-10-03 13:11:46 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:11:46 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:11:46 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:11:46 --> URI Class Initialized
+DEBUG - 2024-10-03 13:11:46 --> No URI present. Default controller set.
+INFO - 2024-10-03 13:11:46 --> Router Class Initialized
+INFO - 2024-10-03 13:11:46 --> Output Class Initialized
+INFO - 2024-10-03 13:11:46 --> Security Class Initialized
+DEBUG - 2024-10-03 13:11:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:11:46 --> CSRF cookie sent
+INFO - 2024-10-03 13:11:46 --> Input Class Initialized
+INFO - 2024-10-03 13:11:46 --> Language Class Initialized
+INFO - 2024-10-03 13:11:46 --> Loader Class Initialized
+INFO - 2024-10-03 13:11:46 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:11:46 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:11:46 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:11:46 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:11:46 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:11:46 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:11:46 --> Parser Class Initialized
+INFO - 2024-10-03 13:11:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:11:46 --> Pagination Class Initialized
+INFO - 2024-10-03 13:11:46 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:11:46 --> Controller Class Initialized
+INFO - 2024-10-03 13:11:46 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:11:46 --> Model "reports" initialized
+INFO - 2024-10-03 13:11:46 --> Model "Customers" initialized
+INFO - 2024-10-03 13:11:46 --> Model "Products" initialized
+INFO - 2024-10-03 13:11:46 --> Model "Suppliers" initialized
+DEBUG - 2024-10-03 13:11:46 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:11:46 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:11:46 --> Model "Invoices" initialized
+INFO - 2024-10-03 13:11:46 --> Model "Purchases" initialized
+ERROR - 2024-10-03 13:11:46 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:11:46 --> Config Class Initialized
+INFO - 2024-10-03 13:11:46 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:11:46 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:11:46 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:11:46 --> URI Class Initialized
+INFO - 2024-10-03 13:11:46 --> Router Class Initialized
+INFO - 2024-10-03 13:11:46 --> Output Class Initialized
+INFO - 2024-10-03 13:11:46 --> Security Class Initialized
+DEBUG - 2024-10-03 13:11:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:11:46 --> CSRF cookie sent
+INFO - 2024-10-03 13:11:46 --> Input Class Initialized
+INFO - 2024-10-03 13:11:46 --> Language Class Initialized
+ERROR - 2024-10-03 13:11:46 --> 404 Page Not Found: Assets/datatables
+ERROR - 2024-10-03 13:11:46 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:11:46 --> Config Class Initialized
+INFO - 2024-10-03 13:11:46 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:11:46 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:11:46 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:11:46 --> URI Class Initialized
+INFO - 2024-10-03 13:11:46 --> Router Class Initialized
+INFO - 2024-10-03 13:11:46 --> Output Class Initialized
+INFO - 2024-10-03 13:11:46 --> Security Class Initialized
+DEBUG - 2024-10-03 13:11:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:11:46 --> CSRF cookie sent
+INFO - 2024-10-03 13:11:46 --> Input Class Initialized
+INFO - 2024-10-03 13:11:46 --> Language Class Initialized
+ERROR - 2024-10-03 13:11:46 --> 404 Page Not Found: Assets/js
+INFO - 2024-10-03 13:11:46 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_home.php
+DEBUG - 2024-10-03 13:11:46 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:11:46 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:11:46 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 09:11:46 --> Model "Users" initialized
+INFO - 2024-10-03 09:11:46 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 09:11:47 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:11:47 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:11:47 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:11:47 --> Final output sent to browser
+DEBUG - 2024-10-03 09:11:47 --> Total execution time: 1.0971
+ERROR - 2024-10-03 13:11:54 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:11:54 --> Config Class Initialized
+INFO - 2024-10-03 13:11:54 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:11:54 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:11:54 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:11:54 --> URI Class Initialized
+INFO - 2024-10-03 13:11:54 --> Router Class Initialized
+INFO - 2024-10-03 13:11:54 --> Output Class Initialized
+INFO - 2024-10-03 13:11:54 --> Security Class Initialized
+DEBUG - 2024-10-03 13:11:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:11:54 --> CSRF cookie sent
+INFO - 2024-10-03 13:11:54 --> Input Class Initialized
+INFO - 2024-10-03 13:11:54 --> Language Class Initialized
+INFO - 2024-10-03 13:11:54 --> Loader Class Initialized
+INFO - 2024-10-03 13:11:54 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:11:54 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:11:54 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:11:54 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:11:54 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:11:54 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:11:54 --> Parser Class Initialized
+INFO - 2024-10-03 13:11:54 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:11:54 --> Pagination Class Initialized
+INFO - 2024-10-03 13:11:54 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:11:54 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:11:54 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:11:54 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:11:54 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:11:54 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:11:54 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\hr/emp_payslip_permission.php
+DEBUG - 2024-10-03 13:11:54 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:11:54 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:11:54 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 13:11:54 --> Model "Products" initialized
+INFO - 2024-10-03 09:11:54 --> Model "reports" initialized
+INFO - 2024-10-03 09:11:54 --> Model "Users" initialized
+INFO - 2024-10-03 09:11:55 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:11:55 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:11:55 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:11:55 --> Final output sent to browser
+DEBUG - 2024-10-03 09:11:55 --> Total execution time: 0.8270
+ERROR - 2024-10-03 13:11:55 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:11:55 --> Config Class Initialized
+ERROR - 2024-10-03 13:11:55 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:11:55 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:11:55 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:11:55 --> Config Class Initialized
+INFO - 2024-10-03 13:11:55 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:11:55 --> Hooks Class Initialized
+INFO - 2024-10-03 13:11:55 --> URI Class Initialized
+DEBUG - 2024-10-03 13:11:55 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:11:55 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:11:55 --> Router Class Initialized
+INFO - 2024-10-03 13:11:55 --> URI Class Initialized
+INFO - 2024-10-03 13:11:55 --> Output Class Initialized
+INFO - 2024-10-03 13:11:55 --> Security Class Initialized
+INFO - 2024-10-03 13:11:55 --> Router Class Initialized
+DEBUG - 2024-10-03 13:11:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:11:55 --> Output Class Initialized
+INFO - 2024-10-03 13:11:55 --> CSRF cookie sent
+INFO - 2024-10-03 13:11:55 --> Input Class Initialized
+INFO - 2024-10-03 13:11:55 --> Security Class Initialized
+INFO - 2024-10-03 13:11:55 --> Language Class Initialized
+DEBUG - 2024-10-03 13:11:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:11:55 --> CSRF cookie sent
+ERROR - 2024-10-03 13:11:55 --> 404 Page Not Found: Assets/css
+INFO - 2024-10-03 13:11:55 --> Input Class Initialized
+INFO - 2024-10-03 13:11:55 --> Language Class Initialized
+ERROR - 2024-10-03 13:11:55 --> 404 Page Not Found: Assets/js
+ERROR - 2024-10-03 13:11:55 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:11:55 --> Config Class Initialized
+INFO - 2024-10-03 13:11:55 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:11:55 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:11:55 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:11:55 --> URI Class Initialized
+DEBUG - 2024-10-03 13:11:55 --> No URI present. Default controller set.
+INFO - 2024-10-03 13:11:55 --> Router Class Initialized
+INFO - 2024-10-03 13:11:55 --> Output Class Initialized
+INFO - 2024-10-03 13:11:55 --> Security Class Initialized
+DEBUG - 2024-10-03 13:11:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:11:55 --> CSRF cookie sent
+INFO - 2024-10-03 13:11:55 --> Input Class Initialized
+INFO - 2024-10-03 13:11:55 --> Language Class Initialized
+INFO - 2024-10-03 13:11:55 --> Loader Class Initialized
+INFO - 2024-10-03 13:11:55 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:11:55 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:11:55 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:11:55 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:11:55 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:11:55 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:11:55 --> Parser Class Initialized
+INFO - 2024-10-03 13:11:55 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:11:55 --> Pagination Class Initialized
+INFO - 2024-10-03 13:11:55 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:11:55 --> Controller Class Initialized
+INFO - 2024-10-03 13:11:55 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:11:55 --> Model "reports" initialized
+INFO - 2024-10-03 13:11:55 --> Model "Customers" initialized
+INFO - 2024-10-03 13:11:55 --> Model "Products" initialized
+INFO - 2024-10-03 13:11:55 --> Model "Suppliers" initialized
+DEBUG - 2024-10-03 13:11:55 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:11:55 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:11:55 --> Model "Invoices" initialized
+INFO - 2024-10-03 13:11:55 --> Model "Purchases" initialized
+ERROR - 2024-10-03 13:11:55 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:11:55 --> Config Class Initialized
+INFO - 2024-10-03 13:11:55 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:11:55 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:11:55 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:11:55 --> URI Class Initialized
+INFO - 2024-10-03 13:11:55 --> Router Class Initialized
+INFO - 2024-10-03 13:11:55 --> Output Class Initialized
+INFO - 2024-10-03 13:11:55 --> Security Class Initialized
+DEBUG - 2024-10-03 13:11:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:11:55 --> CSRF cookie sent
+INFO - 2024-10-03 13:11:55 --> Input Class Initialized
+ERROR - 2024-10-03 13:11:55 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:11:55 --> Language Class Initialized
+INFO - 2024-10-03 13:11:55 --> Config Class Initialized
+ERROR - 2024-10-03 13:11:55 --> 404 Page Not Found: Assets/datatables
+INFO - 2024-10-03 13:11:55 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:11:55 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:11:55 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:11:55 --> URI Class Initialized
+INFO - 2024-10-03 13:11:55 --> Router Class Initialized
+INFO - 2024-10-03 13:11:55 --> Output Class Initialized
+INFO - 2024-10-03 13:11:55 --> Security Class Initialized
+DEBUG - 2024-10-03 13:11:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:11:55 --> CSRF cookie sent
+INFO - 2024-10-03 13:11:55 --> Input Class Initialized
+INFO - 2024-10-03 13:11:55 --> Language Class Initialized
+ERROR - 2024-10-03 13:11:55 --> 404 Page Not Found: Assets/js
+INFO - 2024-10-03 13:11:55 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_home.php
+DEBUG - 2024-10-03 13:11:55 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:11:55 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:11:55 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 09:11:55 --> Model "Users" initialized
+INFO - 2024-10-03 09:11:55 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 09:11:56 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:11:56 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:11:56 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:11:56 --> Final output sent to browser
+DEBUG - 2024-10-03 09:11:56 --> Total execution time: 1.1368
+ERROR - 2024-10-03 13:13:13 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:13:13 --> Config Class Initialized
+INFO - 2024-10-03 13:13:13 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:13:13 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:13:13 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:13:13 --> URI Class Initialized
+INFO - 2024-10-03 13:13:13 --> Router Class Initialized
+INFO - 2024-10-03 13:13:13 --> Output Class Initialized
+INFO - 2024-10-03 13:13:13 --> Security Class Initialized
+DEBUG - 2024-10-03 13:13:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:13:13 --> CSRF cookie sent
+INFO - 2024-10-03 13:13:13 --> Input Class Initialized
+INFO - 2024-10-03 13:13:13 --> Language Class Initialized
+INFO - 2024-10-03 13:13:13 --> Loader Class Initialized
+INFO - 2024-10-03 13:13:13 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:13:13 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:13:13 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:13:13 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:13:13 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:13:13 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:13:13 --> Parser Class Initialized
+INFO - 2024-10-03 13:13:13 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:13:13 --> Pagination Class Initialized
+INFO - 2024-10-03 13:13:13 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:13:13 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:13:13 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:13:13 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:13:13 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:13:13 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:13:13 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\hr/emp_payslip_permission.php
+DEBUG - 2024-10-03 13:13:13 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:13:13 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:13:13 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 13:13:13 --> Model "Products" initialized
+INFO - 2024-10-03 09:13:13 --> Model "reports" initialized
+INFO - 2024-10-03 09:13:13 --> Model "Users" initialized
+INFO - 2024-10-03 09:13:13 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:13:13 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:13:13 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:13:13 --> Final output sent to browser
+DEBUG - 2024-10-03 09:13:13 --> Total execution time: 0.8159
+ERROR - 2024-10-03 13:13:13 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:13:13 --> Config Class Initialized
+INFO - 2024-10-03 13:13:13 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:13:13 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:13:13 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:13:13 --> URI Class Initialized
+DEBUG - 2024-10-03 13:13:13 --> No URI present. Default controller set.
+INFO - 2024-10-03 13:13:13 --> Router Class Initialized
+INFO - 2024-10-03 13:13:13 --> Output Class Initialized
+INFO - 2024-10-03 13:13:13 --> Security Class Initialized
+DEBUG - 2024-10-03 13:13:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:13:13 --> CSRF cookie sent
+INFO - 2024-10-03 13:13:13 --> Input Class Initialized
+INFO - 2024-10-03 13:13:13 --> Language Class Initialized
+INFO - 2024-10-03 13:13:13 --> Loader Class Initialized
+INFO - 2024-10-03 13:13:13 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:13:13 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:13:13 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:13:13 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:13:13 --> Database Driver Class Initialized
+ERROR - 2024-10-03 13:13:13 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+ERROR - 2024-10-03 13:13:13 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:13:13 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:13:13 --> Parser Class Initialized
+INFO - 2024-10-03 13:13:13 --> Config Class Initialized
+INFO - 2024-10-03 13:13:13 --> Hooks Class Initialized
+INFO - 2024-10-03 13:13:13 --> Config Class Initialized
+INFO - 2024-10-03 13:13:13 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:13:13 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:13:13 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:13:13 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2024-10-03 13:13:13 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:13:13 --> URI Class Initialized
+INFO - 2024-10-03 13:13:13 --> Pagination Class Initialized
+INFO - 2024-10-03 13:13:13 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:13:13 --> Router Class Initialized
+INFO - 2024-10-03 13:13:13 --> URI Class Initialized
+INFO - 2024-10-03 13:13:13 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:13:13 --> Output Class Initialized
+INFO - 2024-10-03 13:13:13 --> Controller Class Initialized
+INFO - 2024-10-03 13:13:13 --> Router Class Initialized
+INFO - 2024-10-03 13:13:13 --> Security Class Initialized
+INFO - 2024-10-03 13:13:13 --> Output Class Initialized
+DEBUG - 2024-10-03 13:13:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:13:13 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:13:13 --> Security Class Initialized
+INFO - 2024-10-03 13:13:13 --> CSRF cookie sent
+INFO - 2024-10-03 13:13:13 --> Model "reports" initialized
+INFO - 2024-10-03 13:13:13 --> Input Class Initialized
+DEBUG - 2024-10-03 13:13:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:13:13 --> CSRF cookie sent
+INFO - 2024-10-03 13:13:13 --> Language Class Initialized
+INFO - 2024-10-03 13:13:13 --> Input Class Initialized
+ERROR - 2024-10-03 13:13:13 --> 404 Page Not Found: Assets/js
+INFO - 2024-10-03 13:13:13 --> Language Class Initialized
+INFO - 2024-10-03 13:13:13 --> Model "Customers" initialized
+INFO - 2024-10-03 13:13:13 --> Model "Products" initialized
+ERROR - 2024-10-03 13:13:13 --> 404 Page Not Found: Assets/css
+INFO - 2024-10-03 13:13:13 --> Model "Suppliers" initialized
+DEBUG - 2024-10-03 13:13:13 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:13:13 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:13:13 --> Model "Invoices" initialized
+INFO - 2024-10-03 13:13:13 --> Model "Purchases" initialized
+ERROR - 2024-10-03 13:13:13 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:13:13 --> Config Class Initialized
+INFO - 2024-10-03 13:13:13 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:13:13 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:13:13 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:13:13 --> URI Class Initialized
+INFO - 2024-10-03 13:13:13 --> Router Class Initialized
+INFO - 2024-10-03 13:13:13 --> Output Class Initialized
+INFO - 2024-10-03 13:13:13 --> Security Class Initialized
+ERROR - 2024-10-03 13:13:13 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+DEBUG - 2024-10-03 13:13:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:13:13 --> CSRF cookie sent
+INFO - 2024-10-03 13:13:13 --> Input Class Initialized
+INFO - 2024-10-03 13:13:13 --> Config Class Initialized
+INFO - 2024-10-03 13:13:13 --> Language Class Initialized
+INFO - 2024-10-03 13:13:13 --> Hooks Class Initialized
+ERROR - 2024-10-03 13:13:13 --> 404 Page Not Found: Assets/datatables
+DEBUG - 2024-10-03 13:13:13 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:13:13 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:13:13 --> URI Class Initialized
+INFO - 2024-10-03 13:13:13 --> Router Class Initialized
+INFO - 2024-10-03 13:13:13 --> Output Class Initialized
+INFO - 2024-10-03 13:13:13 --> Security Class Initialized
+DEBUG - 2024-10-03 13:13:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:13:13 --> CSRF cookie sent
+INFO - 2024-10-03 13:13:13 --> Input Class Initialized
+INFO - 2024-10-03 13:13:13 --> Language Class Initialized
+ERROR - 2024-10-03 13:13:13 --> 404 Page Not Found: Assets/js
+INFO - 2024-10-03 13:13:14 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_home.php
+DEBUG - 2024-10-03 13:13:14 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:13:14 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:13:14 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 09:13:14 --> Model "Users" initialized
+INFO - 2024-10-03 09:13:14 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 09:13:15 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:13:15 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:13:15 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:13:15 --> Final output sent to browser
+DEBUG - 2024-10-03 09:13:15 --> Total execution time: 1.1261
+ERROR - 2024-10-03 13:13:15 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:13:15 --> Config Class Initialized
+INFO - 2024-10-03 13:13:15 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:13:15 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:13:15 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:13:15 --> URI Class Initialized
+INFO - 2024-10-03 13:13:15 --> Router Class Initialized
+INFO - 2024-10-03 13:13:15 --> Output Class Initialized
+INFO - 2024-10-03 13:13:15 --> Security Class Initialized
+DEBUG - 2024-10-03 13:13:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:13:15 --> CSRF cookie sent
+INFO - 2024-10-03 13:13:15 --> CSRF token verified
+INFO - 2024-10-03 13:13:15 --> Input Class Initialized
+INFO - 2024-10-03 13:13:15 --> Language Class Initialized
+INFO - 2024-10-03 13:13:15 --> Loader Class Initialized
+INFO - 2024-10-03 13:13:15 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:13:15 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:13:15 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:13:15 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:13:15 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:13:16 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:13:16 --> Parser Class Initialized
+INFO - 2024-10-03 13:13:16 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:13:16 --> Pagination Class Initialized
+INFO - 2024-10-03 13:13:16 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:13:16 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:13:16 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:13:16 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:13:16 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:13:16 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:13:16 --> Model "Invoice_content" initialized
+INFO - 2024-10-03 13:13:16 --> Model "Ppurchases" initialized
+ERROR - 2024-10-03 13:14:56 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:14:56 --> Config Class Initialized
+INFO - 2024-10-03 13:14:56 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:14:56 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:14:56 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:14:56 --> URI Class Initialized
+INFO - 2024-10-03 13:14:56 --> Router Class Initialized
+INFO - 2024-10-03 13:14:56 --> Output Class Initialized
+INFO - 2024-10-03 13:14:56 --> Security Class Initialized
+DEBUG - 2024-10-03 13:14:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:14:56 --> CSRF cookie sent
+INFO - 2024-10-03 13:14:56 --> CSRF token verified
+INFO - 2024-10-03 13:14:56 --> Input Class Initialized
+INFO - 2024-10-03 13:14:56 --> Language Class Initialized
+INFO - 2024-10-03 13:14:56 --> Loader Class Initialized
+INFO - 2024-10-03 13:14:56 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:14:56 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:14:56 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:14:56 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:14:56 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:14:56 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:14:56 --> Parser Class Initialized
+INFO - 2024-10-03 13:14:56 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:14:56 --> Pagination Class Initialized
+INFO - 2024-10-03 13:14:56 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:14:56 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:14:56 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:14:56 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:14:56 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:14:56 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:14:56 --> Model "Invoice_content" initialized
+INFO - 2024-10-03 13:14:56 --> Model "Ppurchases" initialized
+ERROR - 2024-10-03 13:15:35 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:15:35 --> Config Class Initialized
+INFO - 2024-10-03 13:15:35 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:15:35 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:15:35 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:15:35 --> URI Class Initialized
+INFO - 2024-10-03 13:15:35 --> Router Class Initialized
+INFO - 2024-10-03 13:15:35 --> Output Class Initialized
+INFO - 2024-10-03 13:15:35 --> Security Class Initialized
+DEBUG - 2024-10-03 13:15:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:15:35 --> CSRF cookie sent
+INFO - 2024-10-03 13:15:35 --> CSRF token verified
+INFO - 2024-10-03 13:15:35 --> Input Class Initialized
+INFO - 2024-10-03 13:15:35 --> Language Class Initialized
+INFO - 2024-10-03 13:15:35 --> Loader Class Initialized
+INFO - 2024-10-03 13:15:35 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:15:35 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:15:35 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:15:35 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:15:35 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:15:35 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:15:35 --> Parser Class Initialized
+INFO - 2024-10-03 13:15:35 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:15:35 --> Pagination Class Initialized
+INFO - 2024-10-03 13:15:35 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:15:35 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:15:35 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:15:35 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:15:35 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:15:35 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:15:35 --> Model "Invoice_content" initialized
+INFO - 2024-10-03 13:15:35 --> Model "Ppurchases" initialized
+ERROR - 2024-10-03 13:15:35 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:15:35 --> Config Class Initialized
+INFO - 2024-10-03 13:15:35 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:15:35 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:15:35 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:15:35 --> URI Class Initialized
+INFO - 2024-10-03 13:15:35 --> Router Class Initialized
+INFO - 2024-10-03 13:15:35 --> Output Class Initialized
+INFO - 2024-10-03 13:15:35 --> Security Class Initialized
+DEBUG - 2024-10-03 13:15:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:15:35 --> CSRF cookie sent
+INFO - 2024-10-03 13:15:35 --> Input Class Initialized
+INFO - 2024-10-03 13:15:35 --> Language Class Initialized
+INFO - 2024-10-03 13:15:35 --> Loader Class Initialized
+INFO - 2024-10-03 13:15:35 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:15:35 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:15:35 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:15:35 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:15:35 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:15:35 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:15:35 --> Parser Class Initialized
+INFO - 2024-10-03 13:15:35 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:15:35 --> Pagination Class Initialized
+INFO - 2024-10-03 13:15:35 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:15:35 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:15:35 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:15:35 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:15:35 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:15:35 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:15:35 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\hr/timesheet_list.php
+DEBUG - 2024-10-03 13:15:35 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:15:35 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:15:35 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 13:15:35 --> Model "Products" initialized
+INFO - 2024-10-03 09:15:35 --> Model "reports" initialized
+INFO - 2024-10-03 09:15:35 --> Model "Users" initialized
+INFO - 2024-10-03 09:15:36 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:15:36 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:15:36 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:15:36 --> Final output sent to browser
+DEBUG - 2024-10-03 09:15:36 --> Total execution time: 1.0683
+ERROR - 2024-10-03 13:15:36 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:15:36 --> Config Class Initialized
+INFO - 2024-10-03 13:15:36 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:15:36 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:15:36 --> Utf8 Class Initialized
+ERROR - 2024-10-03 13:15:36 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:15:36 --> URI Class Initialized
+INFO - 2024-10-03 13:15:36 --> Config Class Initialized
+INFO - 2024-10-03 13:15:36 --> Router Class Initialized
+INFO - 2024-10-03 13:15:36 --> Hooks Class Initialized
+INFO - 2024-10-03 13:15:36 --> Output Class Initialized
+DEBUG - 2024-10-03 13:15:36 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:15:36 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:15:36 --> Security Class Initialized
+INFO - 2024-10-03 13:15:36 --> URI Class Initialized
+DEBUG - 2024-10-03 13:15:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:15:36 --> CSRF cookie sent
+INFO - 2024-10-03 13:15:36 --> Input Class Initialized
+INFO - 2024-10-03 13:15:36 --> Router Class Initialized
+INFO - 2024-10-03 13:15:36 --> Output Class Initialized
+INFO - 2024-10-03 13:15:36 --> Language Class Initialized
+INFO - 2024-10-03 13:15:36 --> Security Class Initialized
+ERROR - 2024-10-03 13:15:36 --> 404 Page Not Found: Assets/css
+DEBUG - 2024-10-03 13:15:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:15:36 --> CSRF cookie sent
+INFO - 2024-10-03 13:15:36 --> Input Class Initialized
+INFO - 2024-10-03 13:15:36 --> Language Class Initialized
+ERROR - 2024-10-03 13:15:36 --> 404 Page Not Found: Assets/js
+ERROR - 2024-10-03 13:15:36 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:15:36 --> Config Class Initialized
+INFO - 2024-10-03 13:15:36 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:15:36 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:15:36 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:15:36 --> URI Class Initialized
+DEBUG - 2024-10-03 13:15:36 --> No URI present. Default controller set.
+INFO - 2024-10-03 13:15:36 --> Router Class Initialized
+INFO - 2024-10-03 13:15:36 --> Output Class Initialized
+INFO - 2024-10-03 13:15:36 --> Security Class Initialized
+DEBUG - 2024-10-03 13:15:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:15:36 --> CSRF cookie sent
+INFO - 2024-10-03 13:15:36 --> Input Class Initialized
+INFO - 2024-10-03 13:15:36 --> Language Class Initialized
+INFO - 2024-10-03 13:15:36 --> Loader Class Initialized
+INFO - 2024-10-03 13:15:36 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:15:36 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:15:36 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:15:36 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:15:36 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:15:36 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:15:36 --> Parser Class Initialized
+INFO - 2024-10-03 13:15:36 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:15:36 --> Pagination Class Initialized
+INFO - 2024-10-03 13:15:36 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:15:36 --> Controller Class Initialized
+INFO - 2024-10-03 13:15:36 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:15:36 --> Model "reports" initialized
+INFO - 2024-10-03 13:15:36 --> Model "Customers" initialized
+INFO - 2024-10-03 13:15:36 --> Model "Products" initialized
+INFO - 2024-10-03 13:15:36 --> Model "Suppliers" initialized
+DEBUG - 2024-10-03 13:15:36 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:15:36 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:15:36 --> Model "Invoices" initialized
+INFO - 2024-10-03 13:15:36 --> Model "Purchases" initialized
+ERROR - 2024-10-03 13:15:36 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:15:36 --> Config Class Initialized
+INFO - 2024-10-03 13:15:36 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:15:36 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:15:36 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:15:36 --> URI Class Initialized
+INFO - 2024-10-03 13:15:36 --> Router Class Initialized
+INFO - 2024-10-03 13:15:36 --> Output Class Initialized
+INFO - 2024-10-03 13:15:36 --> Security Class Initialized
+DEBUG - 2024-10-03 13:15:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:15:36 --> CSRF cookie sent
+INFO - 2024-10-03 13:15:36 --> Input Class Initialized
+INFO - 2024-10-03 13:15:36 --> Language Class Initialized
+ERROR - 2024-10-03 13:15:36 --> 404 Page Not Found: Assets/datatables
+ERROR - 2024-10-03 13:15:36 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:15:36 --> Config Class Initialized
+INFO - 2024-10-03 13:15:36 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:15:36 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:15:36 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:15:36 --> URI Class Initialized
+INFO - 2024-10-03 13:15:36 --> Router Class Initialized
+INFO - 2024-10-03 13:15:36 --> Output Class Initialized
+INFO - 2024-10-03 13:15:36 --> Security Class Initialized
+DEBUG - 2024-10-03 13:15:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:15:36 --> CSRF cookie sent
+INFO - 2024-10-03 13:15:36 --> Input Class Initialized
+INFO - 2024-10-03 13:15:36 --> Language Class Initialized
+ERROR - 2024-10-03 13:15:36 --> 404 Page Not Found: Assets/js
+INFO - 2024-10-03 13:15:37 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_home.php
+DEBUG - 2024-10-03 13:15:37 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:15:37 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:15:37 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 09:15:37 --> Model "Users" initialized
+INFO - 2024-10-03 09:15:37 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 09:15:37 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:15:37 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:15:37 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:15:37 --> Final output sent to browser
+DEBUG - 2024-10-03 09:15:37 --> Total execution time: 1.2328
+ERROR - 2024-10-03 13:15:41 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:15:41 --> Config Class Initialized
+INFO - 2024-10-03 13:15:41 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:15:41 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:15:41 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:15:41 --> URI Class Initialized
+INFO - 2024-10-03 13:15:41 --> Router Class Initialized
+INFO - 2024-10-03 13:15:41 --> Output Class Initialized
+INFO - 2024-10-03 13:15:41 --> Security Class Initialized
+DEBUG - 2024-10-03 13:15:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:15:41 --> CSRF cookie sent
+INFO - 2024-10-03 13:15:41 --> Input Class Initialized
+INFO - 2024-10-03 13:15:41 --> Language Class Initialized
+INFO - 2024-10-03 13:15:41 --> Loader Class Initialized
+INFO - 2024-10-03 13:15:41 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:15:41 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:15:41 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:15:41 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:15:41 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:15:41 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:15:41 --> Parser Class Initialized
+INFO - 2024-10-03 13:15:41 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:15:41 --> Pagination Class Initialized
+INFO - 2024-10-03 13:15:41 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:15:41 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:15:41 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:15:41 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:15:41 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:15:41 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:15:41 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\hr/emp_payslip_permission.php
+DEBUG - 2024-10-03 13:15:41 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:15:41 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:15:41 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 13:15:41 --> Model "Products" initialized
+INFO - 2024-10-03 09:15:41 --> Model "reports" initialized
+INFO - 2024-10-03 09:15:41 --> Model "Users" initialized
+INFO - 2024-10-03 09:15:42 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:15:42 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:15:42 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:15:42 --> Final output sent to browser
+DEBUG - 2024-10-03 09:15:42 --> Total execution time: 0.7738
+ERROR - 2024-10-03 13:15:42 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:15:42 --> Config Class Initialized
+INFO - 2024-10-03 13:15:42 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:15:42 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:15:42 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:15:42 --> URI Class Initialized
+INFO - 2024-10-03 13:15:42 --> Router Class Initialized
+INFO - 2024-10-03 13:15:42 --> Output Class Initialized
+INFO - 2024-10-03 13:15:42 --> Security Class Initialized
+DEBUG - 2024-10-03 13:15:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:15:42 --> CSRF cookie sent
+INFO - 2024-10-03 13:15:42 --> Input Class Initialized
+INFO - 2024-10-03 13:15:42 --> Language Class Initialized
+ERROR - 2024-10-03 13:15:42 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+ERROR - 2024-10-03 13:15:42 --> 404 Page Not Found: Assets/css
+INFO - 2024-10-03 13:15:42 --> Config Class Initialized
+INFO - 2024-10-03 13:15:42 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:15:42 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:15:42 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:15:42 --> URI Class Initialized
+INFO - 2024-10-03 13:15:42 --> Router Class Initialized
+INFO - 2024-10-03 13:15:42 --> Output Class Initialized
+ERROR - 2024-10-03 13:15:42 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:15:42 --> Security Class Initialized
+DEBUG - 2024-10-03 13:15:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:15:42 --> Config Class Initialized
+INFO - 2024-10-03 13:15:42 --> CSRF cookie sent
+INFO - 2024-10-03 13:15:42 --> Hooks Class Initialized
+INFO - 2024-10-03 13:15:42 --> Input Class Initialized
+DEBUG - 2024-10-03 13:15:42 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:15:42 --> Language Class Initialized
+INFO - 2024-10-03 13:15:42 --> Utf8 Class Initialized
+ERROR - 2024-10-03 13:15:42 --> 404 Page Not Found: Assets/js
+INFO - 2024-10-03 13:15:42 --> URI Class Initialized
+DEBUG - 2024-10-03 13:15:42 --> No URI present. Default controller set.
+INFO - 2024-10-03 13:15:42 --> Router Class Initialized
+INFO - 2024-10-03 13:15:42 --> Output Class Initialized
+INFO - 2024-10-03 13:15:42 --> Security Class Initialized
+DEBUG - 2024-10-03 13:15:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:15:42 --> CSRF cookie sent
+INFO - 2024-10-03 13:15:42 --> Input Class Initialized
+INFO - 2024-10-03 13:15:42 --> Language Class Initialized
+INFO - 2024-10-03 13:15:42 --> Loader Class Initialized
+INFO - 2024-10-03 13:15:42 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:15:42 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:15:42 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:15:42 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:15:42 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:15:42 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:15:42 --> Parser Class Initialized
+INFO - 2024-10-03 13:15:42 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:15:42 --> Pagination Class Initialized
+INFO - 2024-10-03 13:15:42 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:15:42 --> Controller Class Initialized
+INFO - 2024-10-03 13:15:42 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:15:42 --> Model "reports" initialized
+INFO - 2024-10-03 13:15:42 --> Model "Customers" initialized
+INFO - 2024-10-03 13:15:42 --> Model "Products" initialized
+INFO - 2024-10-03 13:15:42 --> Model "Suppliers" initialized
+DEBUG - 2024-10-03 13:15:42 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:15:42 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:15:42 --> Model "Invoices" initialized
+INFO - 2024-10-03 13:15:42 --> Model "Purchases" initialized
+ERROR - 2024-10-03 13:15:42 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:15:42 --> Config Class Initialized
+INFO - 2024-10-03 13:15:42 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:15:42 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:15:42 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:15:42 --> URI Class Initialized
+INFO - 2024-10-03 13:15:42 --> Router Class Initialized
+INFO - 2024-10-03 13:15:42 --> Output Class Initialized
+INFO - 2024-10-03 13:15:42 --> Security Class Initialized
+DEBUG - 2024-10-03 13:15:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:15:42 --> CSRF cookie sent
+ERROR - 2024-10-03 13:15:42 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:15:42 --> Input Class Initialized
+INFO - 2024-10-03 13:15:42 --> Language Class Initialized
+INFO - 2024-10-03 13:15:42 --> Config Class Initialized
+ERROR - 2024-10-03 13:15:42 --> 404 Page Not Found: Assets/datatables
+INFO - 2024-10-03 13:15:42 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:15:42 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:15:42 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:15:42 --> URI Class Initialized
+INFO - 2024-10-03 13:15:42 --> Router Class Initialized
+INFO - 2024-10-03 13:15:42 --> Output Class Initialized
+INFO - 2024-10-03 13:15:42 --> Security Class Initialized
+DEBUG - 2024-10-03 13:15:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:15:42 --> CSRF cookie sent
+INFO - 2024-10-03 13:15:42 --> Input Class Initialized
+INFO - 2024-10-03 13:15:42 --> Language Class Initialized
+ERROR - 2024-10-03 13:15:42 --> 404 Page Not Found: Assets/js
+INFO - 2024-10-03 13:15:42 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_home.php
+DEBUG - 2024-10-03 13:15:42 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:15:42 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:15:42 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 09:15:42 --> Model "Users" initialized
+INFO - 2024-10-03 09:15:42 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 09:15:43 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:15:43 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:15:43 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:15:43 --> Final output sent to browser
+DEBUG - 2024-10-03 09:15:43 --> Total execution time: 1.0842
+ERROR - 2024-10-03 13:16:54 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:16:54 --> Config Class Initialized
+INFO - 2024-10-03 13:16:54 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:16:54 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:16:54 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:16:54 --> URI Class Initialized
+INFO - 2024-10-03 13:16:54 --> Router Class Initialized
+INFO - 2024-10-03 13:16:54 --> Output Class Initialized
+INFO - 2024-10-03 13:16:54 --> Security Class Initialized
+DEBUG - 2024-10-03 13:16:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:16:54 --> CSRF cookie sent
+INFO - 2024-10-03 13:16:54 --> CSRF token verified
+INFO - 2024-10-03 13:16:54 --> Input Class Initialized
+INFO - 2024-10-03 13:16:54 --> Language Class Initialized
+INFO - 2024-10-03 13:16:54 --> Loader Class Initialized
+INFO - 2024-10-03 13:16:54 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:16:54 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:16:54 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:16:54 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:16:54 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:16:54 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:16:54 --> Parser Class Initialized
+INFO - 2024-10-03 13:16:54 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:16:54 --> Pagination Class Initialized
+INFO - 2024-10-03 13:16:54 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:16:54 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:16:54 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:16:54 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:16:54 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:16:54 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:16:54 --> Model "Invoice_content" initialized
+INFO - 2024-10-03 13:16:54 --> Model "Ppurchases" initialized
+ERROR - 2024-10-03 13:17:21 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:17:21 --> Config Class Initialized
+INFO - 2024-10-03 13:17:21 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:17:21 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:17:21 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:17:21 --> URI Class Initialized
+INFO - 2024-10-03 13:17:21 --> Router Class Initialized
+INFO - 2024-10-03 13:17:21 --> Output Class Initialized
+INFO - 2024-10-03 13:17:21 --> Security Class Initialized
+DEBUG - 2024-10-03 13:17:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:17:21 --> CSRF cookie sent
+INFO - 2024-10-03 13:17:21 --> CSRF token verified
+INFO - 2024-10-03 13:17:21 --> Input Class Initialized
+INFO - 2024-10-03 13:17:21 --> Language Class Initialized
+INFO - 2024-10-03 13:17:21 --> Loader Class Initialized
+INFO - 2024-10-03 13:17:21 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:17:21 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:17:21 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:17:21 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:17:21 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:17:21 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:17:21 --> Parser Class Initialized
+INFO - 2024-10-03 13:17:21 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:17:21 --> Pagination Class Initialized
+INFO - 2024-10-03 13:17:21 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:17:21 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:17:21 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:17:21 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:17:21 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:17:21 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:17:21 --> Model "Invoice_content" initialized
+INFO - 2024-10-03 13:17:21 --> Model "Ppurchases" initialized
+ERROR - 2024-10-03 13:18:11 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:18:11 --> Config Class Initialized
+INFO - 2024-10-03 13:18:11 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:18:11 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:18:11 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:18:11 --> URI Class Initialized
+INFO - 2024-10-03 13:18:11 --> Router Class Initialized
+INFO - 2024-10-03 13:18:11 --> Output Class Initialized
+INFO - 2024-10-03 13:18:11 --> Security Class Initialized
+DEBUG - 2024-10-03 13:18:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:18:11 --> CSRF cookie sent
+INFO - 2024-10-03 13:18:11 --> Input Class Initialized
+INFO - 2024-10-03 13:18:11 --> Language Class Initialized
+INFO - 2024-10-03 13:18:11 --> Loader Class Initialized
+INFO - 2024-10-03 13:18:11 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:18:11 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:18:11 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:18:11 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:18:11 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:18:11 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:18:11 --> Parser Class Initialized
+INFO - 2024-10-03 13:18:11 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:18:11 --> Pagination Class Initialized
+INFO - 2024-10-03 13:18:11 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:18:11 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:18:11 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:18:11 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:18:11 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:18:11 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:18:11 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\hr/employee_list.php
+DEBUG - 2024-10-03 13:18:11 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:18:11 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:18:11 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 13:18:11 --> Model "Products" initialized
+INFO - 2024-10-03 09:18:11 --> Model "reports" initialized
+INFO - 2024-10-03 09:18:11 --> Model "Users" initialized
+INFO - 2024-10-03 09:18:12 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:18:12 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:18:12 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:18:12 --> Final output sent to browser
+DEBUG - 2024-10-03 09:18:12 --> Total execution time: 1.0884
+ERROR - 2024-10-03 13:18:12 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:18:12 --> Config Class Initialized
+INFO - 2024-10-03 13:18:12 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:18:12 --> UTF-8 Support Enabled
+ERROR - 2024-10-03 13:18:12 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:18:12 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:18:12 --> Config Class Initialized
+INFO - 2024-10-03 13:18:12 --> URI Class Initialized
+INFO - 2024-10-03 13:18:12 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:18:12 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:18:12 --> Router Class Initialized
+INFO - 2024-10-03 13:18:12 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:18:12 --> URI Class Initialized
+INFO - 2024-10-03 13:18:12 --> Output Class Initialized
+INFO - 2024-10-03 13:18:12 --> Router Class Initialized
+INFO - 2024-10-03 13:18:12 --> Security Class Initialized
+INFO - 2024-10-03 13:18:12 --> Output Class Initialized
+DEBUG - 2024-10-03 13:18:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:18:12 --> CSRF cookie sent
+INFO - 2024-10-03 13:18:12 --> Security Class Initialized
+INFO - 2024-10-03 13:18:12 --> Input Class Initialized
+DEBUG - 2024-10-03 13:18:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:18:12 --> Language Class Initialized
+INFO - 2024-10-03 13:18:12 --> CSRF cookie sent
+INFO - 2024-10-03 13:18:12 --> Input Class Initialized
+INFO - 2024-10-03 13:18:12 --> Language Class Initialized
+ERROR - 2024-10-03 13:18:12 --> 404 Page Not Found: Assets/js
+ERROR - 2024-10-03 13:18:12 --> 404 Page Not Found: Assets/css
+ERROR - 2024-10-03 13:18:12 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:18:12 --> Config Class Initialized
+INFO - 2024-10-03 13:18:12 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:18:12 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:18:12 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:18:12 --> URI Class Initialized
+DEBUG - 2024-10-03 13:18:12 --> No URI present. Default controller set.
+INFO - 2024-10-03 13:18:12 --> Router Class Initialized
+INFO - 2024-10-03 13:18:12 --> Output Class Initialized
+INFO - 2024-10-03 13:18:12 --> Security Class Initialized
+DEBUG - 2024-10-03 13:18:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:18:12 --> CSRF cookie sent
+INFO - 2024-10-03 13:18:12 --> Input Class Initialized
+INFO - 2024-10-03 13:18:12 --> Language Class Initialized
+INFO - 2024-10-03 13:18:12 --> Loader Class Initialized
+INFO - 2024-10-03 13:18:12 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:18:12 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:18:12 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:18:12 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:18:12 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:18:12 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:18:12 --> Parser Class Initialized
+INFO - 2024-10-03 13:18:12 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:18:12 --> Pagination Class Initialized
+INFO - 2024-10-03 13:18:12 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:18:12 --> Controller Class Initialized
+INFO - 2024-10-03 13:18:12 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:18:12 --> Model "reports" initialized
+INFO - 2024-10-03 13:18:12 --> Model "Customers" initialized
+INFO - 2024-10-03 13:18:12 --> Model "Products" initialized
+INFO - 2024-10-03 13:18:12 --> Model "Suppliers" initialized
+DEBUG - 2024-10-03 13:18:12 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:18:12 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:18:12 --> Model "Invoices" initialized
+INFO - 2024-10-03 13:18:12 --> Model "Purchases" initialized
+ERROR - 2024-10-03 13:18:12 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:18:12 --> Config Class Initialized
+INFO - 2024-10-03 13:18:12 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:18:12 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:18:12 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:18:12 --> URI Class Initialized
+INFO - 2024-10-03 13:18:12 --> Router Class Initialized
+INFO - 2024-10-03 13:18:12 --> Output Class Initialized
+INFO - 2024-10-03 13:18:12 --> Security Class Initialized
+DEBUG - 2024-10-03 13:18:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:18:12 --> CSRF cookie sent
+INFO - 2024-10-03 13:18:12 --> Input Class Initialized
+INFO - 2024-10-03 13:18:12 --> Language Class Initialized
+ERROR - 2024-10-03 13:18:12 --> 404 Page Not Found: Assets/datatables
+ERROR - 2024-10-03 13:18:12 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:18:12 --> Config Class Initialized
+INFO - 2024-10-03 13:18:12 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:18:12 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:18:12 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:18:12 --> URI Class Initialized
+INFO - 2024-10-03 13:18:12 --> Router Class Initialized
+INFO - 2024-10-03 13:18:12 --> Output Class Initialized
+INFO - 2024-10-03 13:18:12 --> Security Class Initialized
+DEBUG - 2024-10-03 13:18:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:18:12 --> CSRF cookie sent
+INFO - 2024-10-03 13:18:12 --> Input Class Initialized
+INFO - 2024-10-03 13:18:12 --> Language Class Initialized
+ERROR - 2024-10-03 13:18:12 --> 404 Page Not Found: Assets/js
+INFO - 2024-10-03 13:18:12 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_home.php
+DEBUG - 2024-10-03 13:18:12 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:18:12 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:18:12 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 09:18:12 --> Model "Users" initialized
+INFO - 2024-10-03 09:18:12 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 09:18:13 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:18:13 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:18:13 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:18:13 --> Final output sent to browser
+DEBUG - 2024-10-03 09:18:13 --> Total execution time: 1.1083
+ERROR - 2024-10-03 13:18:13 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:18:13 --> Config Class Initialized
+INFO - 2024-10-03 13:18:13 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:18:13 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:18:13 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:18:13 --> URI Class Initialized
+INFO - 2024-10-03 13:18:13 --> Router Class Initialized
+INFO - 2024-10-03 13:18:13 --> Output Class Initialized
+INFO - 2024-10-03 13:18:13 --> Security Class Initialized
+DEBUG - 2024-10-03 13:18:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:18:13 --> CSRF cookie sent
+INFO - 2024-10-03 13:18:13 --> Input Class Initialized
+INFO - 2024-10-03 13:18:13 --> Language Class Initialized
+INFO - 2024-10-03 13:18:13 --> Loader Class Initialized
+INFO - 2024-10-03 13:18:13 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:18:13 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:18:13 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:18:13 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:18:13 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:18:13 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:18:13 --> Parser Class Initialized
+INFO - 2024-10-03 13:18:13 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:18:13 --> Pagination Class Initialized
+INFO - 2024-10-03 13:18:13 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:18:13 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:18:13 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:18:13 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:18:13 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:18:13 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:18:13 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\hr/employee_form.php
+DEBUG - 2024-10-03 13:18:13 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:18:13 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:18:13 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 13:18:13 --> Model "Products" initialized
+INFO - 2024-10-03 09:18:13 --> Model "reports" initialized
+INFO - 2024-10-03 09:18:13 --> Model "Users" initialized
+INFO - 2024-10-03 09:18:14 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:18:14 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:18:14 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:18:14 --> Final output sent to browser
+DEBUG - 2024-10-03 09:18:14 --> Total execution time: 1.2444
+ERROR - 2024-10-03 13:18:14 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+ERROR - 2024-10-03 13:18:14 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:18:14 --> Config Class Initialized
+INFO - 2024-10-03 13:18:14 --> Config Class Initialized
+INFO - 2024-10-03 13:18:14 --> Hooks Class Initialized
+INFO - 2024-10-03 13:18:14 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:18:14 --> UTF-8 Support Enabled
+DEBUG - 2024-10-03 13:18:14 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:18:14 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:18:14 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:18:14 --> URI Class Initialized
+INFO - 2024-10-03 13:18:14 --> URI Class Initialized
+INFO - 2024-10-03 13:18:14 --> Router Class Initialized
+INFO - 2024-10-03 13:18:14 --> Router Class Initialized
+INFO - 2024-10-03 13:18:14 --> Output Class Initialized
+INFO - 2024-10-03 13:18:14 --> Output Class Initialized
+INFO - 2024-10-03 13:18:14 --> Security Class Initialized
+INFO - 2024-10-03 13:18:14 --> Security Class Initialized
+DEBUG - 2024-10-03 13:18:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-10-03 13:18:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:18:14 --> CSRF cookie sent
+INFO - 2024-10-03 13:18:14 --> CSRF cookie sent
+INFO - 2024-10-03 13:18:14 --> Input Class Initialized
+INFO - 2024-10-03 13:18:14 --> Input Class Initialized
+INFO - 2024-10-03 13:18:14 --> Language Class Initialized
+INFO - 2024-10-03 13:18:14 --> Language Class Initialized
+ERROR - 2024-10-03 13:18:14 --> 404 Page Not Found: Assets/js
+ERROR - 2024-10-03 13:18:14 --> 404 Page Not Found: Assets/css
+ERROR - 2024-10-03 13:18:14 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:18:14 --> Config Class Initialized
+INFO - 2024-10-03 13:18:14 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:18:14 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:18:14 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:18:14 --> URI Class Initialized
+DEBUG - 2024-10-03 13:18:14 --> No URI present. Default controller set.
+INFO - 2024-10-03 13:18:14 --> Router Class Initialized
+INFO - 2024-10-03 13:18:14 --> Output Class Initialized
+INFO - 2024-10-03 13:18:14 --> Security Class Initialized
+DEBUG - 2024-10-03 13:18:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:18:14 --> CSRF cookie sent
+INFO - 2024-10-03 13:18:14 --> Input Class Initialized
+INFO - 2024-10-03 13:18:14 --> Language Class Initialized
+INFO - 2024-10-03 13:18:14 --> Loader Class Initialized
+INFO - 2024-10-03 13:18:14 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:18:14 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:18:14 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:18:14 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:18:14 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:18:14 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:18:14 --> Parser Class Initialized
+INFO - 2024-10-03 13:18:14 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:18:14 --> Pagination Class Initialized
+INFO - 2024-10-03 13:18:14 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:18:14 --> Controller Class Initialized
+INFO - 2024-10-03 13:18:14 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:18:14 --> Model "reports" initialized
+INFO - 2024-10-03 13:18:14 --> Model "Customers" initialized
+INFO - 2024-10-03 13:18:14 --> Model "Products" initialized
+INFO - 2024-10-03 13:18:14 --> Model "Suppliers" initialized
+DEBUG - 2024-10-03 13:18:14 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:18:14 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:18:14 --> Model "Invoices" initialized
+INFO - 2024-10-03 13:18:14 --> Model "Purchases" initialized
+ERROR - 2024-10-03 13:18:14 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:18:14 --> Config Class Initialized
+INFO - 2024-10-03 13:18:14 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:18:14 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:18:14 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:18:14 --> URI Class Initialized
+INFO - 2024-10-03 13:18:14 --> Router Class Initialized
+INFO - 2024-10-03 13:18:14 --> Output Class Initialized
+INFO - 2024-10-03 13:18:14 --> Security Class Initialized
+DEBUG - 2024-10-03 13:18:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:18:14 --> CSRF cookie sent
+INFO - 2024-10-03 13:18:14 --> Input Class Initialized
+INFO - 2024-10-03 13:18:14 --> Language Class Initialized
+ERROR - 2024-10-03 13:18:14 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+ERROR - 2024-10-03 13:18:14 --> 404 Page Not Found: Assets/datatables
+INFO - 2024-10-03 13:18:14 --> Config Class Initialized
+INFO - 2024-10-03 13:18:14 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:18:14 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:18:14 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:18:14 --> URI Class Initialized
+INFO - 2024-10-03 13:18:14 --> Router Class Initialized
+INFO - 2024-10-03 13:18:14 --> Output Class Initialized
+INFO - 2024-10-03 13:18:14 --> Security Class Initialized
+DEBUG - 2024-10-03 13:18:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:18:14 --> CSRF cookie sent
+INFO - 2024-10-03 13:18:14 --> Input Class Initialized
+INFO - 2024-10-03 13:18:14 --> Language Class Initialized
+ERROR - 2024-10-03 13:18:14 --> 404 Page Not Found: Assets/js
+INFO - 2024-10-03 13:18:14 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_home.php
+DEBUG - 2024-10-03 13:18:14 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:18:14 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:18:14 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 09:18:14 --> Model "Users" initialized
+INFO - 2024-10-03 09:18:14 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 09:18:15 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:18:15 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:18:15 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:18:15 --> Final output sent to browser
+DEBUG - 2024-10-03 09:18:15 --> Total execution time: 1.0985
+ERROR - 2024-10-03 13:21:14 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:21:14 --> Config Class Initialized
+INFO - 2024-10-03 13:21:14 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:21:14 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:21:14 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:21:14 --> URI Class Initialized
+INFO - 2024-10-03 13:21:14 --> Router Class Initialized
+INFO - 2024-10-03 13:21:14 --> Output Class Initialized
+INFO - 2024-10-03 13:21:14 --> Security Class Initialized
+DEBUG - 2024-10-03 13:21:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:21:14 --> CSRF cookie sent
+INFO - 2024-10-03 13:21:14 --> CSRF token verified
+INFO - 2024-10-03 13:21:14 --> Input Class Initialized
+INFO - 2024-10-03 13:21:14 --> Language Class Initialized
+INFO - 2024-10-03 13:21:14 --> Loader Class Initialized
+INFO - 2024-10-03 13:21:14 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:21:14 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:21:14 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:21:14 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:21:14 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:21:14 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:21:14 --> Parser Class Initialized
+INFO - 2024-10-03 13:21:14 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:21:14 --> Pagination Class Initialized
+INFO - 2024-10-03 13:21:14 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:21:14 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:21:14 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:21:14 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:21:14 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:21:14 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:21:14 --> Model "Invoice_content" initialized
+INFO - 2024-10-03 13:21:14 --> Model "Ppurchases" initialized
+ERROR - 2024-10-03 13:23:05 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:23:05 --> Config Class Initialized
+INFO - 2024-10-03 13:23:05 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:23:05 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:23:05 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:23:05 --> URI Class Initialized
+INFO - 2024-10-03 13:23:05 --> Router Class Initialized
+INFO - 2024-10-03 13:23:05 --> Output Class Initialized
+INFO - 2024-10-03 13:23:05 --> Security Class Initialized
+DEBUG - 2024-10-03 13:23:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:23:05 --> CSRF cookie sent
+INFO - 2024-10-03 13:23:05 --> CSRF token verified
+INFO - 2024-10-03 13:23:05 --> Input Class Initialized
+INFO - 2024-10-03 13:23:05 --> Language Class Initialized
+INFO - 2024-10-03 13:23:05 --> Loader Class Initialized
+INFO - 2024-10-03 13:23:05 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:23:05 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:23:05 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:23:05 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:23:05 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:23:05 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:23:05 --> Parser Class Initialized
+INFO - 2024-10-03 13:23:05 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:23:05 --> Pagination Class Initialized
+INFO - 2024-10-03 13:23:05 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:23:05 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:23:05 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:23:05 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:23:05 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:23:05 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:23:05 --> Model "Invoice_content" initialized
+INFO - 2024-10-03 13:23:05 --> Model "Ppurchases" initialized
+ERROR - 2024-10-03 13:23:32 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:23:32 --> Config Class Initialized
+INFO - 2024-10-03 13:23:32 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:23:32 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:23:32 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:23:32 --> URI Class Initialized
+INFO - 2024-10-03 13:23:32 --> Router Class Initialized
+INFO - 2024-10-03 13:23:32 --> Output Class Initialized
+INFO - 2024-10-03 13:23:32 --> Security Class Initialized
+DEBUG - 2024-10-03 13:23:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:23:32 --> CSRF cookie sent
+INFO - 2024-10-03 13:23:32 --> CSRF token verified
+INFO - 2024-10-03 13:23:32 --> Input Class Initialized
+INFO - 2024-10-03 13:23:32 --> Language Class Initialized
+INFO - 2024-10-03 13:23:32 --> Loader Class Initialized
+INFO - 2024-10-03 13:23:32 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:23:32 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:23:32 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:23:32 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:23:32 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:23:32 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:23:32 --> Parser Class Initialized
+INFO - 2024-10-03 13:23:32 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:23:32 --> Pagination Class Initialized
+INFO - 2024-10-03 13:23:32 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:23:32 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:23:32 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:23:32 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:23:32 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:23:32 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:23:32 --> Model "Invoice_content" initialized
+INFO - 2024-10-03 13:23:32 --> Model "Ppurchases" initialized
+ERROR - 2024-10-03 13:23:41 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:23:41 --> Config Class Initialized
+INFO - 2024-10-03 13:23:41 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:23:41 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:23:41 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:23:41 --> URI Class Initialized
+INFO - 2024-10-03 13:23:41 --> Router Class Initialized
+INFO - 2024-10-03 13:23:41 --> Output Class Initialized
+INFO - 2024-10-03 13:23:41 --> Security Class Initialized
+DEBUG - 2024-10-03 13:23:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:23:41 --> CSRF cookie sent
+INFO - 2024-10-03 13:23:41 --> CSRF token verified
+INFO - 2024-10-03 13:23:41 --> Input Class Initialized
+INFO - 2024-10-03 13:23:41 --> Language Class Initialized
+INFO - 2024-10-03 13:23:41 --> Loader Class Initialized
+INFO - 2024-10-03 13:23:41 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:23:41 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:23:41 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:23:41 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:23:41 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:23:41 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:23:41 --> Parser Class Initialized
+INFO - 2024-10-03 13:23:41 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:23:41 --> Pagination Class Initialized
+INFO - 2024-10-03 13:23:41 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:23:41 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:23:41 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:23:41 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:23:41 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:23:41 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:23:41 --> Model "Invoice_content" initialized
+INFO - 2024-10-03 13:23:41 --> Model "Ppurchases" initialized
+ERROR - 2024-10-03 13:24:05 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:24:05 --> Config Class Initialized
+INFO - 2024-10-03 13:24:05 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:24:05 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:24:05 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:24:05 --> URI Class Initialized
+INFO - 2024-10-03 13:24:05 --> Router Class Initialized
+INFO - 2024-10-03 13:24:05 --> Output Class Initialized
+INFO - 2024-10-03 13:24:05 --> Security Class Initialized
+DEBUG - 2024-10-03 13:24:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:24:05 --> CSRF cookie sent
+INFO - 2024-10-03 13:24:05 --> CSRF token verified
+INFO - 2024-10-03 13:24:05 --> Input Class Initialized
+INFO - 2024-10-03 13:24:05 --> Language Class Initialized
+INFO - 2024-10-03 13:24:05 --> Loader Class Initialized
+INFO - 2024-10-03 13:24:05 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:24:05 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:24:05 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:24:05 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:24:05 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:24:05 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:24:05 --> Parser Class Initialized
+INFO - 2024-10-03 13:24:05 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:24:05 --> Pagination Class Initialized
+INFO - 2024-10-03 13:24:05 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:24:05 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:24:05 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:24:05 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:24:05 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:24:05 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:24:05 --> Model "Invoice_content" initialized
+INFO - 2024-10-03 13:24:05 --> Model "Ppurchases" initialized
+ERROR - 2024-10-03 13:24:40 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:24:40 --> Config Class Initialized
+INFO - 2024-10-03 13:24:40 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:24:40 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:24:40 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:24:40 --> URI Class Initialized
+INFO - 2024-10-03 13:24:40 --> Router Class Initialized
+INFO - 2024-10-03 13:24:40 --> Output Class Initialized
+INFO - 2024-10-03 13:24:40 --> Security Class Initialized
+DEBUG - 2024-10-03 13:24:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:24:40 --> CSRF cookie sent
+INFO - 2024-10-03 13:24:40 --> CSRF token verified
+INFO - 2024-10-03 13:24:40 --> Input Class Initialized
+INFO - 2024-10-03 13:24:40 --> Language Class Initialized
+INFO - 2024-10-03 13:24:40 --> Loader Class Initialized
+INFO - 2024-10-03 13:24:40 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:24:40 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:24:40 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:24:40 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:24:40 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:24:40 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:24:40 --> Parser Class Initialized
+INFO - 2024-10-03 13:24:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:24:40 --> Pagination Class Initialized
+INFO - 2024-10-03 13:24:40 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:24:40 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:24:40 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:24:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:24:40 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:24:40 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:24:40 --> Model "Invoice_content" initialized
+INFO - 2024-10-03 13:24:40 --> Model "Ppurchases" initialized
+ERROR - 2024-10-03 13:24:51 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:24:51 --> Config Class Initialized
+INFO - 2024-10-03 13:24:51 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:24:51 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:24:51 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:24:51 --> URI Class Initialized
+INFO - 2024-10-03 13:24:51 --> Router Class Initialized
+INFO - 2024-10-03 13:24:51 --> Output Class Initialized
+INFO - 2024-10-03 13:24:51 --> Security Class Initialized
+DEBUG - 2024-10-03 13:24:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:24:51 --> CSRF cookie sent
+INFO - 2024-10-03 13:24:51 --> CSRF token verified
+INFO - 2024-10-03 13:24:51 --> Input Class Initialized
+INFO - 2024-10-03 13:24:51 --> Language Class Initialized
+INFO - 2024-10-03 13:24:51 --> Loader Class Initialized
+INFO - 2024-10-03 13:24:51 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:24:51 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:24:51 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:24:51 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:24:51 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:24:51 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:24:51 --> Parser Class Initialized
+INFO - 2024-10-03 13:24:51 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:24:51 --> Pagination Class Initialized
+INFO - 2024-10-03 13:24:51 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:24:51 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:24:51 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:24:51 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:24:51 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:24:51 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:24:51 --> Model "Invoice_content" initialized
+INFO - 2024-10-03 13:24:51 --> Model "Ppurchases" initialized
+ERROR - 2024-10-03 13:24:51 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:24:51 --> Config Class Initialized
+INFO - 2024-10-03 13:24:51 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:24:51 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:24:51 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:24:51 --> URI Class Initialized
+INFO - 2024-10-03 13:24:51 --> Router Class Initialized
+INFO - 2024-10-03 13:24:51 --> Output Class Initialized
+INFO - 2024-10-03 13:24:51 --> Security Class Initialized
+DEBUG - 2024-10-03 13:24:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:24:51 --> CSRF cookie sent
+INFO - 2024-10-03 13:24:51 --> Input Class Initialized
+INFO - 2024-10-03 13:24:51 --> Language Class Initialized
+INFO - 2024-10-03 13:24:51 --> Loader Class Initialized
+INFO - 2024-10-03 13:24:51 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:24:51 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:24:51 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:24:51 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:24:51 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:24:51 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:24:51 --> Parser Class Initialized
+INFO - 2024-10-03 13:24:51 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:24:51 --> Pagination Class Initialized
+INFO - 2024-10-03 13:24:51 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:24:51 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:24:51 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:24:51 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:24:51 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:24:51 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:24:52 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\hr/timesheet_list.php
+DEBUG - 2024-10-03 13:24:52 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:24:52 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:24:52 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 13:24:52 --> Model "Products" initialized
+INFO - 2024-10-03 09:24:52 --> Model "reports" initialized
+INFO - 2024-10-03 09:24:52 --> Model "Users" initialized
+INFO - 2024-10-03 09:24:52 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:24:52 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:24:52 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:24:52 --> Final output sent to browser
+DEBUG - 2024-10-03 09:24:52 --> Total execution time: 1.0839
+ERROR - 2024-10-03 13:24:52 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+ERROR - 2024-10-03 13:24:52 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:24:52 --> Config Class Initialized
+INFO - 2024-10-03 13:24:52 --> Config Class Initialized
+INFO - 2024-10-03 13:24:52 --> Hooks Class Initialized
+INFO - 2024-10-03 13:24:52 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:24:52 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:24:52 --> Utf8 Class Initialized
+DEBUG - 2024-10-03 13:24:52 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:24:52 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:24:52 --> URI Class Initialized
+INFO - 2024-10-03 13:24:52 --> URI Class Initialized
+INFO - 2024-10-03 13:24:52 --> Router Class Initialized
+INFO - 2024-10-03 13:24:52 --> Router Class Initialized
+INFO - 2024-10-03 13:24:52 --> Output Class Initialized
+INFO - 2024-10-03 13:24:52 --> Output Class Initialized
+INFO - 2024-10-03 13:24:52 --> Security Class Initialized
+INFO - 2024-10-03 13:24:52 --> Security Class Initialized
+DEBUG - 2024-10-03 13:24:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:24:52 --> CSRF cookie sent
+DEBUG - 2024-10-03 13:24:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:24:52 --> Input Class Initialized
+INFO - 2024-10-03 13:24:52 --> CSRF cookie sent
+INFO - 2024-10-03 13:24:52 --> Input Class Initialized
+INFO - 2024-10-03 13:24:52 --> Language Class Initialized
+INFO - 2024-10-03 13:24:52 --> Language Class Initialized
+ERROR - 2024-10-03 13:24:52 --> 404 Page Not Found: Assets/js
+ERROR - 2024-10-03 13:24:52 --> 404 Page Not Found: Assets/css
+ERROR - 2024-10-03 13:24:52 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:24:52 --> Config Class Initialized
+INFO - 2024-10-03 13:24:52 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:24:52 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:24:52 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:24:52 --> URI Class Initialized
+DEBUG - 2024-10-03 13:24:52 --> No URI present. Default controller set.
+INFO - 2024-10-03 13:24:52 --> Router Class Initialized
+INFO - 2024-10-03 13:24:52 --> Output Class Initialized
+INFO - 2024-10-03 13:24:52 --> Security Class Initialized
+DEBUG - 2024-10-03 13:24:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:24:52 --> CSRF cookie sent
+INFO - 2024-10-03 13:24:52 --> Input Class Initialized
+INFO - 2024-10-03 13:24:52 --> Language Class Initialized
+INFO - 2024-10-03 13:24:52 --> Loader Class Initialized
+INFO - 2024-10-03 13:24:52 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:24:52 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:24:52 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:24:52 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:24:52 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:24:52 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:24:52 --> Parser Class Initialized
+INFO - 2024-10-03 13:24:52 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:24:52 --> Pagination Class Initialized
+INFO - 2024-10-03 13:24:52 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:24:52 --> Controller Class Initialized
+INFO - 2024-10-03 13:24:52 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:24:52 --> Model "reports" initialized
+INFO - 2024-10-03 13:24:52 --> Model "Customers" initialized
+INFO - 2024-10-03 13:24:52 --> Model "Products" initialized
+INFO - 2024-10-03 13:24:52 --> Model "Suppliers" initialized
+DEBUG - 2024-10-03 13:24:52 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:24:52 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:24:52 --> Model "Invoices" initialized
+INFO - 2024-10-03 13:24:52 --> Model "Purchases" initialized
+ERROR - 2024-10-03 13:24:52 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:24:52 --> Config Class Initialized
+INFO - 2024-10-03 13:24:52 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:24:52 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:24:52 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:24:52 --> URI Class Initialized
+INFO - 2024-10-03 13:24:52 --> Router Class Initialized
+INFO - 2024-10-03 13:24:52 --> Output Class Initialized
+INFO - 2024-10-03 13:24:52 --> Security Class Initialized
+DEBUG - 2024-10-03 13:24:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:24:52 --> CSRF cookie sent
+INFO - 2024-10-03 13:24:52 --> Input Class Initialized
+INFO - 2024-10-03 13:24:52 --> Language Class Initialized
+ERROR - 2024-10-03 13:24:52 --> 404 Page Not Found: Assets/datatables
+ERROR - 2024-10-03 13:24:52 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:24:52 --> Config Class Initialized
+INFO - 2024-10-03 13:24:52 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:24:52 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:24:52 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:24:52 --> URI Class Initialized
+INFO - 2024-10-03 13:24:52 --> Router Class Initialized
+INFO - 2024-10-03 13:24:52 --> Output Class Initialized
+INFO - 2024-10-03 13:24:52 --> Security Class Initialized
+DEBUG - 2024-10-03 13:24:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:24:52 --> CSRF cookie sent
+INFO - 2024-10-03 13:24:52 --> Input Class Initialized
+INFO - 2024-10-03 13:24:52 --> Language Class Initialized
+ERROR - 2024-10-03 13:24:52 --> 404 Page Not Found: Assets/js
+INFO - 2024-10-03 13:24:53 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_home.php
+DEBUG - 2024-10-03 13:24:53 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:24:53 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:24:53 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 09:24:53 --> Model "Users" initialized
+INFO - 2024-10-03 09:24:53 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 09:24:53 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:24:53 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:24:53 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:24:53 --> Final output sent to browser
+DEBUG - 2024-10-03 09:24:53 --> Total execution time: 1.1526
+ERROR - 2024-10-03 13:25:21 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:25:21 --> Config Class Initialized
+INFO - 2024-10-03 13:25:21 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:25:21 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:25:21 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:25:21 --> URI Class Initialized
+INFO - 2024-10-03 13:25:21 --> Router Class Initialized
+INFO - 2024-10-03 13:25:21 --> Output Class Initialized
+INFO - 2024-10-03 13:25:21 --> Security Class Initialized
+DEBUG - 2024-10-03 13:25:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:25:21 --> CSRF cookie sent
+INFO - 2024-10-03 13:25:21 --> Input Class Initialized
+INFO - 2024-10-03 13:25:21 --> Language Class Initialized
+INFO - 2024-10-03 13:25:21 --> Loader Class Initialized
+INFO - 2024-10-03 13:25:21 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:25:21 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:25:21 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:25:21 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:25:21 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:25:22 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:25:22 --> Parser Class Initialized
+INFO - 2024-10-03 13:25:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:25:22 --> Pagination Class Initialized
+INFO - 2024-10-03 13:25:22 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:25:22 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:25:22 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:25:22 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:25:22 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:25:22 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:25:22 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\hr/emp_payslip_permission.php
+DEBUG - 2024-10-03 13:25:22 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:25:22 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:25:22 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 13:25:22 --> Model "Products" initialized
+INFO - 2024-10-03 09:25:22 --> Model "reports" initialized
+INFO - 2024-10-03 09:25:22 --> Model "Users" initialized
+INFO - 2024-10-03 09:25:22 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:25:22 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:25:22 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:25:22 --> Final output sent to browser
+DEBUG - 2024-10-03 09:25:22 --> Total execution time: 1.0173
+ERROR - 2024-10-03 13:25:22 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:25:22 --> Config Class Initialized
+INFO - 2024-10-03 13:25:22 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:25:22 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:25:22 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:25:22 --> URI Class Initialized
+INFO - 2024-10-03 13:25:22 --> Router Class Initialized
+INFO - 2024-10-03 13:25:22 --> Output Class Initialized
+INFO - 2024-10-03 13:25:22 --> Security Class Initialized
+ERROR - 2024-10-03 13:25:22 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+DEBUG - 2024-10-03 13:25:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:25:22 --> CSRF cookie sent
+INFO - 2024-10-03 13:25:22 --> Input Class Initialized
+INFO - 2024-10-03 13:25:22 --> Config Class Initialized
+INFO - 2024-10-03 13:25:22 --> Hooks Class Initialized
+INFO - 2024-10-03 13:25:22 --> Language Class Initialized
+DEBUG - 2024-10-03 13:25:22 --> UTF-8 Support Enabled
+ERROR - 2024-10-03 13:25:22 --> 404 Page Not Found: Assets/css
+INFO - 2024-10-03 13:25:22 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:25:22 --> URI Class Initialized
+INFO - 2024-10-03 13:25:22 --> Router Class Initialized
+INFO - 2024-10-03 13:25:22 --> Output Class Initialized
+INFO - 2024-10-03 13:25:22 --> Security Class Initialized
+DEBUG - 2024-10-03 13:25:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:25:22 --> CSRF cookie sent
+INFO - 2024-10-03 13:25:22 --> Input Class Initialized
+INFO - 2024-10-03 13:25:22 --> Language Class Initialized
+ERROR - 2024-10-03 13:25:22 --> 404 Page Not Found: Assets/js
+ERROR - 2024-10-03 13:25:22 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:25:22 --> Config Class Initialized
+INFO - 2024-10-03 13:25:22 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:25:22 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:25:22 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:25:22 --> URI Class Initialized
+DEBUG - 2024-10-03 13:25:22 --> No URI present. Default controller set.
+INFO - 2024-10-03 13:25:22 --> Router Class Initialized
+INFO - 2024-10-03 13:25:22 --> Output Class Initialized
+INFO - 2024-10-03 13:25:22 --> Security Class Initialized
+DEBUG - 2024-10-03 13:25:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:25:22 --> CSRF cookie sent
+INFO - 2024-10-03 13:25:22 --> Input Class Initialized
+INFO - 2024-10-03 13:25:22 --> Language Class Initialized
+INFO - 2024-10-03 13:25:22 --> Loader Class Initialized
+INFO - 2024-10-03 13:25:22 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:25:22 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:25:22 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:25:22 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:25:22 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:25:22 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:25:22 --> Parser Class Initialized
+INFO - 2024-10-03 13:25:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:25:22 --> Pagination Class Initialized
+INFO - 2024-10-03 13:25:22 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:25:22 --> Controller Class Initialized
+INFO - 2024-10-03 13:25:22 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:25:22 --> Model "reports" initialized
+INFO - 2024-10-03 13:25:22 --> Model "Customers" initialized
+INFO - 2024-10-03 13:25:22 --> Model "Products" initialized
+INFO - 2024-10-03 13:25:22 --> Model "Suppliers" initialized
+DEBUG - 2024-10-03 13:25:22 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:25:22 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:25:22 --> Model "Invoices" initialized
+INFO - 2024-10-03 13:25:22 --> Model "Purchases" initialized
+ERROR - 2024-10-03 13:25:22 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+ERROR - 2024-10-03 13:25:22 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:25:22 --> Config Class Initialized
+INFO - 2024-10-03 13:25:22 --> Config Class Initialized
+INFO - 2024-10-03 13:25:22 --> Hooks Class Initialized
+INFO - 2024-10-03 13:25:22 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:25:22 --> UTF-8 Support Enabled
+DEBUG - 2024-10-03 13:25:22 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:25:22 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:25:22 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:25:22 --> URI Class Initialized
+INFO - 2024-10-03 13:25:22 --> URI Class Initialized
+INFO - 2024-10-03 13:25:22 --> Router Class Initialized
+INFO - 2024-10-03 13:25:22 --> Router Class Initialized
+INFO - 2024-10-03 13:25:22 --> Output Class Initialized
+INFO - 2024-10-03 13:25:22 --> Output Class Initialized
+INFO - 2024-10-03 13:25:22 --> Security Class Initialized
+INFO - 2024-10-03 13:25:22 --> Security Class Initialized
+DEBUG - 2024-10-03 13:25:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:25:22 --> CSRF cookie sent
+DEBUG - 2024-10-03 13:25:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:25:22 --> Input Class Initialized
+INFO - 2024-10-03 13:25:22 --> CSRF cookie sent
+INFO - 2024-10-03 13:25:22 --> Input Class Initialized
+INFO - 2024-10-03 13:25:22 --> Language Class Initialized
+INFO - 2024-10-03 13:25:22 --> Language Class Initialized
+ERROR - 2024-10-03 13:25:22 --> 404 Page Not Found: Assets/js
+ERROR - 2024-10-03 13:25:22 --> 404 Page Not Found: Assets/datatables
+INFO - 2024-10-03 13:25:23 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_home.php
+DEBUG - 2024-10-03 13:25:23 --> Parser class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:25:23 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/top_menu.php
+INFO - 2024-10-03 13:25:23 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_loggedin_info.php
+INFO - 2024-10-03 09:25:23 --> Model "Users" initialized
+INFO - 2024-10-03 09:25:23 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 09:25:24 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_header.php
+INFO - 2024-10-03 09:25:24 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\include/admin_footer.php
+INFO - 2024-10-03 09:25:24 --> File loaded: D:\wamp64\www\Wagers_03Oct24\application\views\admin_html_template.php
+INFO - 2024-10-03 09:25:24 --> Final output sent to browser
+DEBUG - 2024-10-03 09:25:24 --> Total execution time: 1.1101
+ERROR - 2024-10-03 13:25:25 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:25:25 --> Config Class Initialized
+INFO - 2024-10-03 13:25:25 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:25:25 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:25:25 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:25:25 --> URI Class Initialized
+INFO - 2024-10-03 13:25:25 --> Router Class Initialized
+INFO - 2024-10-03 13:25:25 --> Output Class Initialized
+INFO - 2024-10-03 13:25:25 --> Security Class Initialized
+DEBUG - 2024-10-03 13:25:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:25:25 --> CSRF cookie sent
+INFO - 2024-10-03 13:25:25 --> CSRF token verified
+INFO - 2024-10-03 13:25:25 --> Input Class Initialized
+INFO - 2024-10-03 13:25:25 --> Language Class Initialized
+INFO - 2024-10-03 13:25:25 --> Loader Class Initialized
+INFO - 2024-10-03 13:25:25 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:25:25 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:25:25 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:25:25 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:25:25 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:25:25 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:25:25 --> Parser Class Initialized
+INFO - 2024-10-03 13:25:25 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:25:25 --> Pagination Class Initialized
+INFO - 2024-10-03 13:25:25 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:25:25 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:25:25 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:25:25 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:25:25 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:25:25 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:25:25 --> Model "Invoice_content" initialized
+INFO - 2024-10-03 13:25:25 --> Model "Ppurchases" initialized
+ERROR - 2024-10-03 13:26:19 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:26:19 --> Config Class Initialized
+INFO - 2024-10-03 13:26:19 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:26:19 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:26:19 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:26:19 --> URI Class Initialized
+INFO - 2024-10-03 13:26:19 --> Router Class Initialized
+INFO - 2024-10-03 13:26:19 --> Output Class Initialized
+INFO - 2024-10-03 13:26:19 --> Security Class Initialized
+DEBUG - 2024-10-03 13:26:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:26:19 --> CSRF cookie sent
+INFO - 2024-10-03 13:26:19 --> CSRF token verified
+INFO - 2024-10-03 13:26:19 --> Input Class Initialized
+INFO - 2024-10-03 13:26:19 --> Language Class Initialized
+INFO - 2024-10-03 13:26:19 --> Loader Class Initialized
+INFO - 2024-10-03 13:26:19 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:26:19 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:26:19 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:26:19 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:26:19 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:26:19 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:26:19 --> Parser Class Initialized
+INFO - 2024-10-03 13:26:19 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:26:19 --> Pagination Class Initialized
+INFO - 2024-10-03 13:26:19 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:26:19 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:26:19 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:26:19 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:26:19 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:26:19 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:26:19 --> Model "Invoice_content" initialized
+INFO - 2024-10-03 13:26:19 --> Model "Ppurchases" initialized
+ERROR - 2024-10-03 13:26:42 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:26:42 --> Config Class Initialized
+INFO - 2024-10-03 13:26:42 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:26:42 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:26:42 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:26:42 --> URI Class Initialized
+INFO - 2024-10-03 13:26:42 --> Router Class Initialized
+INFO - 2024-10-03 13:26:42 --> Output Class Initialized
+INFO - 2024-10-03 13:26:42 --> Security Class Initialized
+DEBUG - 2024-10-03 13:26:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:26:42 --> CSRF cookie sent
+INFO - 2024-10-03 13:26:42 --> CSRF token verified
+INFO - 2024-10-03 13:26:42 --> Input Class Initialized
+INFO - 2024-10-03 13:26:42 --> Language Class Initialized
+INFO - 2024-10-03 13:26:42 --> Loader Class Initialized
+INFO - 2024-10-03 13:26:42 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:26:42 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:26:42 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:26:42 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:26:42 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:26:42 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:26:42 --> Parser Class Initialized
+INFO - 2024-10-03 13:26:42 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:26:42 --> Pagination Class Initialized
+INFO - 2024-10-03 13:26:42 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:26:42 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:26:42 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:26:42 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:26:42 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:26:42 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:26:42 --> Model "Invoice_content" initialized
+INFO - 2024-10-03 13:26:42 --> Model "Ppurchases" initialized
+ERROR - 2024-10-03 13:27:17 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:27:17 --> Config Class Initialized
+INFO - 2024-10-03 13:27:17 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:27:17 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:27:17 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:27:17 --> URI Class Initialized
+INFO - 2024-10-03 13:27:17 --> Router Class Initialized
+INFO - 2024-10-03 13:27:17 --> Output Class Initialized
+INFO - 2024-10-03 13:27:17 --> Security Class Initialized
+DEBUG - 2024-10-03 13:27:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:27:17 --> CSRF cookie sent
+INFO - 2024-10-03 13:27:17 --> CSRF token verified
+INFO - 2024-10-03 13:27:17 --> Input Class Initialized
+INFO - 2024-10-03 13:27:17 --> Language Class Initialized
+INFO - 2024-10-03 13:27:17 --> Loader Class Initialized
+INFO - 2024-10-03 13:27:17 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:27:17 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:27:17 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:27:17 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:27:17 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:27:17 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:27:17 --> Parser Class Initialized
+INFO - 2024-10-03 13:27:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:27:17 --> Pagination Class Initialized
+INFO - 2024-10-03 13:27:17 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:27:17 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:27:17 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:27:17 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:27:17 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:27:17 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:27:17 --> Model "Invoice_content" initialized
+INFO - 2024-10-03 13:27:17 --> Model "Ppurchases" initialized
+ERROR - 2024-10-03 13:27:50 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:27:50 --> Config Class Initialized
+INFO - 2024-10-03 13:27:50 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:27:50 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:27:50 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:27:50 --> URI Class Initialized
+INFO - 2024-10-03 13:27:50 --> Router Class Initialized
+INFO - 2024-10-03 13:27:50 --> Output Class Initialized
+INFO - 2024-10-03 13:27:50 --> Security Class Initialized
+DEBUG - 2024-10-03 13:27:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:27:50 --> CSRF cookie sent
+INFO - 2024-10-03 13:27:50 --> CSRF token verified
+INFO - 2024-10-03 13:27:50 --> Input Class Initialized
+INFO - 2024-10-03 13:27:50 --> Language Class Initialized
+INFO - 2024-10-03 13:27:50 --> Loader Class Initialized
+INFO - 2024-10-03 13:27:50 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:27:50 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:27:50 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:27:50 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:27:50 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:27:50 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:27:50 --> Parser Class Initialized
+INFO - 2024-10-03 13:27:50 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:27:50 --> Pagination Class Initialized
+INFO - 2024-10-03 13:27:50 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:27:50 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:27:50 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:27:50 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:27:50 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:27:50 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:27:50 --> Model "Invoice_content" initialized
+INFO - 2024-10-03 13:27:50 --> Model "Ppurchases" initialized
+ERROR - 2024-10-03 13:28:12 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:28:12 --> Config Class Initialized
+INFO - 2024-10-03 13:28:12 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:28:12 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:28:12 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:28:12 --> URI Class Initialized
+INFO - 2024-10-03 13:28:12 --> Router Class Initialized
+INFO - 2024-10-03 13:28:12 --> Output Class Initialized
+INFO - 2024-10-03 13:28:12 --> Security Class Initialized
+DEBUG - 2024-10-03 13:28:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:28:12 --> CSRF cookie sent
+INFO - 2024-10-03 13:28:12 --> CSRF token verified
+INFO - 2024-10-03 13:28:12 --> Input Class Initialized
+INFO - 2024-10-03 13:28:12 --> Language Class Initialized
+INFO - 2024-10-03 13:28:12 --> Loader Class Initialized
+INFO - 2024-10-03 13:28:12 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:28:12 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:28:12 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:28:12 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:28:12 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:28:12 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:28:12 --> Parser Class Initialized
+INFO - 2024-10-03 13:28:12 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:28:12 --> Pagination Class Initialized
+INFO - 2024-10-03 13:28:12 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:28:12 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:28:12 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:28:12 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:28:12 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:28:12 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:28:12 --> Model "Invoice_content" initialized
+INFO - 2024-10-03 13:28:12 --> Model "Ppurchases" initialized
+ERROR - 2024-10-03 13:28:36 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:28:36 --> Config Class Initialized
+INFO - 2024-10-03 13:28:36 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:28:36 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:28:36 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:28:36 --> URI Class Initialized
+INFO - 2024-10-03 13:28:36 --> Router Class Initialized
+INFO - 2024-10-03 13:28:36 --> Output Class Initialized
+INFO - 2024-10-03 13:28:36 --> Security Class Initialized
+DEBUG - 2024-10-03 13:28:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:28:36 --> CSRF cookie sent
+INFO - 2024-10-03 13:28:36 --> CSRF token verified
+INFO - 2024-10-03 13:28:36 --> Input Class Initialized
+INFO - 2024-10-03 13:28:36 --> Language Class Initialized
+INFO - 2024-10-03 13:28:36 --> Loader Class Initialized
+INFO - 2024-10-03 13:28:36 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:28:36 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:28:36 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:28:36 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:28:36 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:28:36 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:28:36 --> Parser Class Initialized
+INFO - 2024-10-03 13:28:36 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:28:36 --> Pagination Class Initialized
+INFO - 2024-10-03 13:28:36 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:28:36 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:28:36 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:28:36 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:28:36 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:28:36 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:28:36 --> Model "Invoice_content" initialized
+INFO - 2024-10-03 13:28:36 --> Model "Ppurchases" initialized
+ERROR - 2024-10-03 13:29:01 --> $config['composer_autoload'] is set to TRUE but D:\wamp64\www\Wagers_03Oct24\application\vendor/autoload.php was not found.
+INFO - 2024-10-03 13:29:01 --> Config Class Initialized
+INFO - 2024-10-03 13:29:01 --> Hooks Class Initialized
+DEBUG - 2024-10-03 13:29:01 --> UTF-8 Support Enabled
+INFO - 2024-10-03 13:29:01 --> Utf8 Class Initialized
+INFO - 2024-10-03 13:29:01 --> URI Class Initialized
+INFO - 2024-10-03 13:29:01 --> Router Class Initialized
+INFO - 2024-10-03 13:29:01 --> Output Class Initialized
+INFO - 2024-10-03 13:29:01 --> Security Class Initialized
+DEBUG - 2024-10-03 13:29:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-03 13:29:01 --> CSRF cookie sent
+INFO - 2024-10-03 13:29:01 --> CSRF token verified
+INFO - 2024-10-03 13:29:01 --> Input Class Initialized
+INFO - 2024-10-03 13:29:01 --> Language Class Initialized
+INFO - 2024-10-03 13:29:01 --> Loader Class Initialized
+INFO - 2024-10-03 13:29:01 --> Helper loaded: url_helper
+INFO - 2024-10-03 13:29:01 --> Helper loaded: file_helper
+INFO - 2024-10-03 13:29:01 --> Helper loaded: form_helper
+INFO - 2024-10-03 13:29:01 --> Helper loaded: lang_helper
+INFO - 2024-10-03 13:29:01 --> Database Driver Class Initialized
+INFO - 2024-10-03 13:29:01 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-03 13:29:01 --> Parser Class Initialized
+INFO - 2024-10-03 13:29:01 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-10-03 13:29:01 --> Pagination Class Initialized
+INFO - 2024-10-03 13:29:01 --> Form Validation Class Initialized
+INFO - 2024-10-03 13:29:01 --> Controller Class Initialized
+DEBUG - 2024-10-03 13:29:01 --> Auth class already loaded. Second attempt ignored.
+DEBUG - 2024-10-03 13:29:01 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-10-03 13:29:01 --> Model "Web_settings" initialized
+INFO - 2024-10-03 13:29:01 --> Model "Hrm_model" initialized
+INFO - 2024-10-03 13:29:01 --> Model "Invoice_content" initialized
+INFO - 2024-10-03 13:29:01 --> Model "Ppurchases" initialized
