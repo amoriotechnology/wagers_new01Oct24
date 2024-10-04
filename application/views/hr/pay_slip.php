@@ -556,15 +556,15 @@ $total_time = sprintf('%d:%02d', $hours, $minutes);
                               </tr>
 
 
-                              <?php  } //print_r($state_local_tax);?>
+                              <?php  }?>
                              
   
 
-                              <?php if (!empty($selected_state_tax)) : ?>
-<?php if ($hourly || $weekly ||  $biweekly) : ?>
+                              <?php if (!empty($selected_state_tax)) { ?>
+<?php if ($hourly || $weekly ||  $biweekly){  ?>
    
    
-<?php if ($infoemployee[0]['payroll_type'] == 'Hourly'  ||  $infoemployee[0]['payroll_type'] == 'SalesCommission' || $infoemployee[0]['sales_partner'] == 'Sales_Partner' ) : ?>
+<?php //if ($infoemployee[0]['payroll_type'] == 'Hourly'  ||  $infoemployee[0]['payroll_type'] == 'SalesCommission' || $infoemployee[0]['sales_partner'] == 'Sales_Partner' ) { ?>
 
 <tr>
     <td style="text-align:left;">NJ-Income tax</td>
@@ -574,33 +574,13 @@ $total_time = sprintf('%d:%02d', $hours, $minutes);
 </td>
 </tr>
 
-<?php elseif ($infoemployee[0]['payroll_type'] == 'Salaried-weekly' || 
-        $infoemployee[0]['payroll_type'] == 'Salaried-BiWeekly' || 
-        $infoemployee[0]['payroll_type'] == 'Salaried-Monthly' || 
-        $infoemployee[0]['payroll_type'] == 'Salaried-BiMonthly' ||
-        $infoemployee[0]['payroll_type'] == 'SalesCommission'
-        ) : ?>
 
-<tr>
-    <td style="text-align:left;">NJ-Income tax</td>
-    <td></td>
-    <td class="current">
-    <?php echo "-" . ($weekly ? $weekly : ($biweekly ? $biweekly : $monthly)); ?>
-</td>
-<td class="ytd">
-<?php 
-echo round(($OVweekly ? $OVweekly : ($OVbiweekly ? $OVbiweekly : $OVmonthly)), 2); 
-?>
-</td>
-</tr>
 
-<?php endif; ?>
+<?php }//} ?>
 
-<?php endif; ?>
-
-<?php else : ?>
-<?php foreach ($selected_state_tax as $k => $v) : ?>
-    <?php if ($v) :
+<?php }else{ ?>
+<?php foreach ($selected_state_tax as $k => $v) { ?>
+    <?php if ($v) { 
         $split = explode('-', $k);
         $title = str_replace("'employee_", '', $split[0]);
         $rep = str_replace("'", '', $split[1]);
@@ -621,9 +601,9 @@ echo round(($OVweekly ? $OVweekly : ($OVbiweekly ? $OVbiweekly : $OVmonthly)), 2
                 <?php echo round($selected_state_sum[$rep], 3); ?>
             </td>
         </tr>
-    <?php endif; ?>
-<?php endforeach; ?>
-<?php endif; ?>
+    <?php }?>
+<?php }}?>
+
  
 
 
